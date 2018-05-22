@@ -1,4 +1,6 @@
-### BSTree_demo_bmstu_dev [![Build Status](https://travis-ci.org/geminishkv/BSTree.svg?branch=develop)](https://travis-ci.org/geminishkv/BSTree) <a href="https://geminishkv.github.io/BSTree/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
+### BSTree_bmstu_dev
+
+## BSTree_demodev [![Build Status](https://travis-ci.org/geminishkv/BSTree.svg?branch=develop)](https://travis-ci.org/geminishkv/BSTree) <a href="https://geminishkv.github.io/BSTree/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 
 ```
 Целью данного проекта является разработка программно-аппаратной части по серии ОСТ 
