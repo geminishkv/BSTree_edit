@@ -68,6 +68,10 @@ $ git clone https://github.com/geminishkv/BSTree.git BSTree
 $ cd BSTree
 $ cmake -H. -B_build -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON
 $ cmake --build _builds
+$ _build/example1 && echo
+$ cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
+$ cmake --build _build --target install
+$ tree _install
 ```
 
 * Building examples:

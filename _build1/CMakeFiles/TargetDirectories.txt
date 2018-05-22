@@ -1,0 +1,10 @@
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/list_install_components.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/install.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/rebuild_cache.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/edit_cache.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/tree.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/tree-cli.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/test.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/check.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/install/local.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_builds/CMakeFiles/install/strip.dir
