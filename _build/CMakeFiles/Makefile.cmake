@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../CPackConfig.cmake"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
@@ -18,14 +19,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.5/Modules/CPack.cmake"
+  "/usr/share/cmake-3.5/Modules/CPackComponent.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.5/Modules/InstallRequiredSystemLibraries.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.5/Templates/CPackConfig.cmake.in"
   )
 
 # The corresponding makefile is:
@@ -36,12 +41,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CPackConfig.cmake"
+  "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/tree.dir/DependInfo.cmake"
-  "CMakeFiles/tree-cli.dir/DependInfo.cmake"
   "CMakeFiles/check.dir/DependInfo.cmake"
+  "CMakeFiles/tree-cli.dir/DependInfo.cmake"
+  "CMakeFiles/tree.dir/DependInfo.cmake"
   )

@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/B
 CMAKE_BINARY_DIR = /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build
 
 #=============================================================================
-# Target rules for target CMakeFiles/tree.dir
+# Target rules for target CMakeFiles/check.dir
 
 # All Build rule for target.
-CMakeFiles/tree.dir/all:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles --progress-num=4,5 "Built target tree"
-.PHONY : CMakeFiles/tree.dir/all
+CMakeFiles/check.dir/all: CMakeFiles/tree.dir/all
+	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/depend
+	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles --progress-num=1,2,3 "Built target check"
+.PHONY : CMakeFiles/check.dir/all
 
 # Include target in all.
-all: CMakeFiles/tree.dir/all
+all: CMakeFiles/check.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree.dir/all
+CMakeFiles/check.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/check.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 0
-.PHONY : CMakeFiles/tree.dir/rule
+.PHONY : CMakeFiles/check.dir/rule
 
 # Convenience name for target.
-tree: CMakeFiles/tree.dir/rule
+check: CMakeFiles/check.dir/rule
 
-.PHONY : tree
-
-# clean rule for target.
-CMakeFiles/tree.dir/clean:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
-.PHONY : CMakeFiles/tree.dir/clean
+.PHONY : check
 
 # clean rule for target.
-clean: CMakeFiles/tree.dir/clean
+CMakeFiles/check.dir/clean:
+	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/clean
+.PHONY : CMakeFiles/check.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/check.dir/clean
 
 .PHONY : clean
 
@@ -134,39 +134,39 @@ clean: CMakeFiles/tree-cli.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/check.dir
+# Target rules for target CMakeFiles/tree.dir
 
 # All Build rule for target.
-CMakeFiles/check.dir/all: CMakeFiles/tree.dir/all
-	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/depend
-	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles --progress-num=1,2,3 "Built target check"
-.PHONY : CMakeFiles/check.dir/all
+CMakeFiles/tree.dir/all:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles --progress-num=4,5 "Built target tree"
+.PHONY : CMakeFiles/tree.dir/all
 
 # Include target in all.
-all: CMakeFiles/check.dir/all
+all: CMakeFiles/tree.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/check.dir/all
+CMakeFiles/tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/CMakeFiles 0
-.PHONY : CMakeFiles/check.dir/rule
+.PHONY : CMakeFiles/tree.dir/rule
 
 # Convenience name for target.
-check: CMakeFiles/check.dir/rule
+tree: CMakeFiles/tree.dir/rule
 
-.PHONY : check
-
-# clean rule for target.
-CMakeFiles/check.dir/clean:
-	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/clean
-.PHONY : CMakeFiles/check.dir/clean
+.PHONY : tree
 
 # clean rule for target.
-clean: CMakeFiles/check.dir/clean
+CMakeFiles/tree.dir/clean:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
+.PHONY : CMakeFiles/tree.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tree.dir/clean
 
 .PHONY : clean
 
