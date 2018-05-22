@@ -10,6 +10,9 @@ option(BUILD_TESTS "Build tests" ON)
 project(tree)
 
 include_directories("${CMAKE_SOURCE_DIR}/include")
+include(CPackConfig.cmake)
+include(cmake/HunterGate.cmake)
+
 add_library(tree STATIC ${CMAKE_CURRENT_SOURCE_DIR}/sources/tree.cpp)
 
 target_include_directories(tree PUBLIC
@@ -51,4 +54,3 @@ add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
 endif()
 
 
-include(CPackConfig.cmake)

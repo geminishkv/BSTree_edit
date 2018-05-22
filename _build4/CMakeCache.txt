@@ -198,6 +198,9 @@ CPACK_BINARY_TXZ:BOOL=OFF
 //Enable to build TZ packages
 CPACK_BINARY_TZ:BOOL=ON
 
+//No help, variable specified on the command line.
+CPACK_GENERATOR:UNINITIALIZED=TGZ
+
 //Enable to build TBZ2 source packages
 CPACK_SOURCE_TBZ2:BOOL=ON
 
@@ -212,15 +215,6 @@ CPACK_SOURCE_TZ:BOOL=ON
 
 //Enable to build ZIP source packages
 CPACK_SOURCE_ZIP:BOOL=OFF
-
-//Enable Hunter package manager support
-HUNTER_ENABLED:BOOL=ON
-
-//Print a lot info
-HUNTER_STATUS_DEBUG:BOOL=OFF
-
-//Print working status
-HUNTER_STATUS_PRINT:BOOL=ON
 
 //Value Computed by CMake
 tree_BINARY_DIR:STATIC=/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build
