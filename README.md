@@ -128,9 +128,9 @@ $ cd ..
 ### Links
 * 📘 Documentation: <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 * 📦 Release: [not available yet]()
-* 📘 Hunter: [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
-* 📦 Build's:[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
+* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+* 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
+  [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
 
 ### Rights 4usage
 * BSTree_dev
