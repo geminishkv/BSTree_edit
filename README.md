@@ -12,7 +12,8 @@
 ```
 
 ```
-Работа выполнена непосредственно: Зинченко Яниса, Шмакова Ильи: Группа - ИУ8-21М.
+Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. 
+Группа - ИУ8-21М.
 ```
 
 ```
@@ -74,6 +75,7 @@
 $ git clone https://github.com/geminishkv/BSTree_edit.git BSTree_edit
 $ git clone https://github.com/geminishkv/BSTree_edit.git tree-cli # or that type
 $ cd BSTree_edit
+$ git checkout crossdevelop
 $ cmake -H. -B_build -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON
 $ cmake --build _builds
 $ _build/tree-cli && echo
@@ -83,8 +85,8 @@ $ _build/tree-cli && echo
 ```ShellSession
 $ git clone https://github.com/geminishkv/BSTree_edit.git BSTTree_edit
 $ git clone https://github.com/geminishkv/BSTree_edit.git tree-cli # or that type
-$ cd BSTree
-$ git checkout develop
+$ cd BSTree_edit
+$ git checkout crossdevelop
 $ cmake -H. -B_builds
 $ cmake --build _builds
 ```
@@ -96,23 +98,25 @@ $ cmake --build _build --target install
 $ tree _install
 ```
 
-* Building examples:
+* Building example's:
 ```ShellSession
 $ git clone https://github.com/geminishkv/BSTree_edit.git BSTree_edit
 $ git clone https://github.com/geminishkv/BSTree_edit.git tree-cli # or that type
-$ cd BSTree
+$ cd BSTree_edit
+$ git checkout crossdevelop
 ```
 
 * Building test`s:
 ```ShellSession
 $ git clone https://github.com/geminishkv/BSTree_edit.git BSTree_edit
 $ git clone https://github.com/geminishkv/BSTree_edit.git tree-cli # or that type
-$ cd BSTree
+$ cd BSTree_edit
+$ git checkout crossdevelop
 ```
 
 * Building cmake/cpack configure:
 ```ShellSession
-$ cmake -H. -B_build -DCPACK_GENERATOR="TGZ" # like exmp
+$ cmake -H. -B_build -DCPACK_GENERATOR="TGZ" # like exmp 4 init procc
 $ cmake --build _build --target package
 $ cmake -H. -B_build
 $ cmake --build _build
@@ -124,9 +128,14 @@ $ cd ..
 ### Links
 * 📘 Documentation: <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 * 📦 Release: [not available yet]()
+* 📘 Hunter: [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=develop)](https://travis-ci.org/geminishkv/BSTree_edit) 
-* 📘 Hunter: [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+
+* BSTree_dev
+* tree-cli.cpp
+* Created by Zinchenko && Shmakov /BMSTU/.
+* Copyright © 2018 iso4datel && geminishkv. All rights reserved.
 
 ### Demowiew_dev
 [![asciicast][not available yet]()

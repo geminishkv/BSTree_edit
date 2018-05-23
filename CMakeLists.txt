@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDART ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(BUILD_EXAMPLES "Build examples" ON)
@@ -12,6 +11,14 @@ project(tree)
 include_directories("${CMAKE_SOURCE_DIR}/include")
 include(CPackConfig.cmake)
 include(cmake/HunterGate.cmake)
+
+set(PRINT_VERSION_MAJOR 0)
+set(PRINT_VERSION_MINOR 1)
+set(PRINT_VERSION_PATCH 0)
+set(PRINT_VERSION_TWEAK 0)
+set(PRINT_VERSION 
+${PRINT_VERSION_MAJOR}.${PRINT_VERSION_MINOR}.${PRINT_VERSION_PATCH}.${PRINT_VERSION_TWEAK})
+set(PRINT_VERSION_STRING "v${PRINT_VERSION}")
 
 add_library(tree STATIC ${CMAKE_CURRENT_SOURCE_DIR}/sources/tree.cpp)
 

@@ -1,3 +1,8 @@
+//  BSTree_dev
+//  tree-cli.cpp
+//  Created by Zinchenko && Shmakov /bmstu/.
+//  Copyright © 2018 iso4datel && geminishkv. All rights reserved.
+//
 /*
  *  Catch v1.9.3
  *  Generated: 2017-04-25 14:16:29.434734
