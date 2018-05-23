@@ -7,24 +7,10 @@ option(BUILD_EXAMPLES "Build examples" ON)
 option(BUILD_TESTS "Build tests" ON)
 
 project(tree)
-project(demo)
-
-hunter_add_package(pcg)
-
-find_package(pcg CONFIG REQUIRED)
-add_executable(demo ${CMAKE_CURRENT_SOURCE_DIR}/sources/demo.cpp)
-target_link_libraries(demo pcg::pcg_random)
-
-install(TARGETS demo RUNTIME DESTINATION bin)
 
 include_directories("${CMAKE_SOURCE_DIR}/include")
 include(CPackConfig.cmake)
 include(cmake/HunterGate.cmake)
-
-HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.20.30.tar.gz"
-    SHA1 "9d391b0d67417c47d52746f23c088028d33ecd05"
-) 
 
 set(PRINT_VERSION_MAJOR 0)
 set(PRINT_VERSION_MINOR 1)
@@ -61,8 +47,6 @@ install(TARGETS tree
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 install(EXPORT tree-config DESTINATION cmake)
-install(TARGETS tree RUNTIME DESTINATION bin)
-include(CPackConfig.cmake)
 
 if(BUILD_TESTS)
 enable_testing()
@@ -75,5 +59,8 @@ target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
 message(STATUS "DEPENDS LIBS: [${DEPENDS_LIBRARIES}]")
 add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
 endif()
+
+
+
 
 
