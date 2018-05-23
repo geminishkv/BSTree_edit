@@ -1,3 +1,4 @@
+# преднастройка файла конфигурации hunter.cmake на исполнение
 include(hunter_add_version)
 include(hunter_cacheable)
 include(hunter_cmake_args)

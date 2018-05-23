@@ -18,15 +18,18 @@ set(CPACK_RESOURCE_FILE_README ${CMAKE_CURRENT_SOURCE_DIR}/README.md)
 
 # формирование конфигурирования файла
 set(CPACK_RPM_PACKAGE_NAME "tree-crossdevelop") 
+set(CPACK_RPM_PACKAGE_NAME "demo-devel")
 
 # представление имени поставщика для PRM пакета
 set(CPACK_RPM_PACKAGE_LICENSE "MIT") 
 
 # представление лицензии поставщика для PRM пакета
 set(CPACK_RPM_PACKAGE_GROUP "BSTree_interpretate's") 
+set(CPACK_RPM_PACKAGE_GROUP "demo")
 
 # представление групы поставщика для PRM пакета
 set(CPACK_RPM_PACKAGE_URL "https://github.com/geminishkv/BSTree_edit.git") 
+set(CPACK_RPM_PACKAGE_URL "https://github.com/geminishkv/BSTree_edit.git")
 
 # представление на каталог линковки для PRM пакета
 set(CPACK_RPM_CHANGELOG_FILE ${CMAKE_CURRENT_SOURCE_DIR}/ChangeLog.md) 
@@ -37,6 +40,7 @@ set(CPACK_RPM_PACKAGE_RELEASE 1)
 # представление нормализованной версии выпуска для PRM пакета
 # формирование конфигурирования файла
 set(CPACK_DEBIAN_PACKAGE_NAME "lib4BSTree-dev") 
+set(CPACK_DEBIAN_PACKAGE_NAME "libdemo-dev")
 
 # представление имени поставщика для DEB пакета
 set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://geminishkv.github.io/BSTree_edit/")
