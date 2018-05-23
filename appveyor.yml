@@ -1,11 +1,3 @@
-language: cpp
-
-script:
-- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON
-- cmake --build _build
-- cmake --build _build --target install
-- cmake --build _build --target test -- ARGS=--verbose
-
 init:
     # секция инициализации, исполняется до клонирования проекта
     # скорее всего, строчка ниже необязательна (так должно быть по умолчанию),
