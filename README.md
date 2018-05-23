@@ -132,9 +132,10 @@ $ cd ..
 * 📦 Build's:[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=develop)](https://travis-ci.org/geminishkv/BSTree_edit) 
 
-### Rights
+### Rights 4usage
 * BSTree_dev
-* tree-cli.cpp
+* tree-cli.cpp tree.h tree.cpp
+* catch.hpp main.cpp test1.cpp
 * Created by Zinchenko && Shmakov /BMSTU/.
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved.
 
