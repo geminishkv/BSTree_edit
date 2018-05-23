@@ -132,6 +132,7 @@ $ cd ..
 * 📦 Build's:[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=develop)](https://travis-ci.org/geminishkv/BSTree_edit) 
 
+### Rights
 * BSTree_dev
 * tree-cli.cpp
 * Created by Zinchenko && Shmakov /BMSTU/.
