@@ -9,7 +9,7 @@
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
 ![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-![DUB](https://img.shields.io/dub/l/vibe-d.svg)
+![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
 ![AUR](https://img.shields.io/aur/license/yaourt.svg)
 ![AUR](https://img.shields.io/aur/license/travis.svg)
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)
@@ -147,7 +147,7 @@ $ cd ..
 
 ### Links 
 * 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
-* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)(https://github.com/geminishkv/BSTree_edit/releases"
+* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)
 * 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
@@ -162,7 +162,7 @@ $ cd ..
 * Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
 * File's4Code c++: tree-cli.cpp tree.h tree.cpp
 * Test's files: catch.hpp(realised by hunter) main.cpp test1.cpp
-* Hunter by Ruslo: [![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)(https://github.com/ruslo/hunter)
+* Hunter by Ruslo: ![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)(https://github.com/ruslo/hunter)
 * Created by Zinchenko && Shmakov /BMSTU/. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
