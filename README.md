@@ -1,4 +1,4 @@
-### BSTree_demo_bmstu_dev ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![GitHub issue author](https://img.shields.io/badge/develop-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
+### BSTree_demo_bmstu_dev ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-Brightgreen%20.svg)![GitHub issue author](https://img.shields.io/badge/develop-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
 ![Pull Request Stats (long form)](https://img.shields.io/issuestats/p/long/github/expressjs/express.svg)
 ![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 ![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
