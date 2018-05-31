@@ -167,3 +167,6 @@ $ cd ..
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
 ### Demowiew_dev && saw repo: artifacts_all ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
+
+
+### THX for subscribing
