@@ -1,7 +1,10 @@
-### BSTree_demo_bmstu_dev ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![GitHub issue author](https://img.shields.io/badge/develop-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
+### BSTree_demo_bmstu_dev ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![GitHub issue author](https://img.shields.io/badge/developer-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
+
+```
+Shield's 4 interpritateproject:
 ![Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>]
+[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 ![AUR](https://img.shields.io/aur/license/yaourt.svg)
 ![AUR](https://img.shields.io/aur/license/travis.svg)
@@ -13,17 +16,18 @@
 ![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
+```
 
 ```
 Целью данного проекта является разработка программно-аппаратной части реализации функционала 
 прозода по двоичному дереву BSTree: в соотвествии с указанными политиками исполднения кода, по серии ОСТ, 
 в том числе относительно основополагающих требований и формаций для языка программирования С++, а также
 форматов исполнения требований согласно приведенной локументации для работы с двоичным деревом 
-поиска по распределенным вариантам. [![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)]
+поиска по распределенным вариантам. [![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)]
 ```
 
 ```
-Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. [![JIRA sprint completion](https://img.shields.io/jira/sprint/https/jira.spring.io/93.svg)]
+Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. ![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 Группа - ИУ8-21М.
 ```
 
@@ -47,7 +51,7 @@
 ```
 
 ```
-Этапы: [![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens.svg)]
+Этапы: [![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)]
 1. ✔️
 2. ✔️
 3. ✔️
@@ -79,7 +83,7 @@
 и master.
 
 
-### Build
+### Build ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)
 
 * Building BSTree:
 ```ShellSession
@@ -137,13 +141,14 @@ $ cd ..
 ```
 
 ### Links 
-* 📘 Documentation: ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)
+* 📘 Documentation: [![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)]
 * 📦 Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<https://img.shields.io/badge/releases-latest-green.svg"/></a>
-* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)(https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
-master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
+
+4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
+4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]
 
 ### Rights 4usage
