@@ -8,6 +8,8 @@
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
 ![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)
+![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![DUB](https://img.shields.io/dub/l/vibe-d.svg)
 ![AUR](https://img.shields.io/aur/license/yaourt.svg)
 ![AUR](https://img.shields.io/aur/license/travis.svg)
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)
@@ -16,6 +18,7 @@
 [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 ![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 ![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)
+![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
 
 
 ### InfoData ![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
@@ -33,7 +36,7 @@
 Группа - ИУ8-21М.
 ```
 
-### InfoData ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
 ```
 Целью является разработка работы двоичным деревом поиска со следующим TUI(управлением):
 Выберите одну из операций:
@@ -50,7 +53,7 @@
 8. Завершить работу программы
 ```
 
-### InfoData ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
 ```
 Этапы: 
 1. ✔️
@@ -64,7 +67,7 @@
 ```
 
 
-### Формализованные требования ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+### Формализованные требования ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
 - ✔️ Единый стиль кода;
 - ✔️ Проверка утилитой **cpplint**;
 - ✔️ Все функции по работе с деревом должны находиться в пространстве имен `BSTree`;
@@ -133,7 +136,7 @@ $ git checkout crossdevelop
 
 * Building cmake/cpack configure:
 ```ShellSession
-$ cmake -H. -B_build -DCPACK_GENERATOR="TGZ" # like exmp 4 init procc
+$ cmake -H. -B_build -DCPACK_GENERATOR="TGZ" # like exmpl 4 init procc'
 $ cmake --build _build --target package
 $ cmake -H. -B_build
 $ cmake --build _build
@@ -144,7 +147,7 @@ $ cd ..
 
 ### Links 
 * 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
-* 📦 Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<"https://img.shields.io/badge/releases-latest-green.svg"/></a>
+* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)(https://github.com/geminishkv/BSTree_edit/releases"
 * 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
@@ -159,7 +162,7 @@ $ cd ..
 * Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
 * File's4Code c++: tree-cli.cpp tree.h tree.cpp
 * Test's files: catch.hpp(realised by hunter) main.cpp test1.cpp
-* Hunter by Ruslo: <a href="https://github.com/ruslo/hunter"><img src="https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)]"/></a>
+* Hunter by Ruslo: [![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)(https://github.com/ruslo/hunter)
 * Created by Zinchenko && Shmakov /BMSTU/. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
