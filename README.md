@@ -1,16 +1,28 @@
 ### BSTree_demo_bmstu_dev ![GitHub issue author]( https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-Brightgreen%20.svg)![GitHub issue author](https://img.shields.io/badge/develop-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
 ![Pull Request Stats (long form)](https://img.shields.io/issuestats/p/long/github/expressjs/express.svg)
+
 ![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
+
 ![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
+
 ![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+
 ![AUR](https://img.shields.io/aur/license/yaourt.svg)
+
 ![AUR](https://img.shields.io/aur/license/travis.svg)
+
 ![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)
+
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
+
 ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)
+
 ![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
+
 ![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)
+
 ![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)
+
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)][![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
 
