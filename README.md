@@ -1,18 +1,17 @@
-### BSTree_demo_bmstu_dev [![GitHub issue author](https://img.shields.io/github/issues/detail/u/badges/shields/979.svg)][![GitHub issue author]( https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-Brightgreen%20.svg)]
-[![Pull Request Stats (long form)](https://img.shields.io/issuestats/p/long/github/expressjs/express.svg)]
-[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
-[![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)]
-[![AUR](https://img.shields.io/aur/license/travis.svg)]
-[![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)]
-[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)]
-[![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)]
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)]
-[![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)]
-[![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)]
-[![Jenkins tests](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)]
+### BSTree_demo_bmstu_dev ![GitHub issue author]( https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-Brightgreen%20.svg)![GitHub issue author](https://img.shields.io/badge/develop-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
+![Pull Request Stats (long form)](https://img.shields.io/issuestats/p/long/github/expressjs/express.svg)
+![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
+![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
+![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+![AUR](https://img.shields.io/aur/license/yaourt.svg)
+![AUR](https://img.shields.io/aur/license/travis.svg)
+![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)
+![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)
+![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
+![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)
+![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)
+![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)][![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
 
 ```
@@ -137,26 +136,26 @@ $ cpack -G "TGZ"
 $ cd ..
 ```
 
-### Links [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)]
-* 📘 Documentation: <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
+### Links 
+* 📘 Documentation: <a href="https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg"/></a>
 * 📦  &#xe024; Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<"https://github.com/geminishkv/BSTree_edit/releases/latest"/></a>
 * 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
-[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
+[![Build Status]master branch:(https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
+[![Build Status]master branch:(https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]
 
 https://img.shields.io/vaadin-directory/v/vaadinvaadin-grid.svg
 
 ### Rights 4usage
-* BSTree_dev [![Elijah Doman Directory](https://img.shields.io/vaadin-directory/v/elijahdoman-grid.svg)]
+* BSTree_dev ![Elijah Doman Directory](https://img.shields.io/badge/Elijah%20Doman%2FShmakov%20Directory-liquid%20true-green.svg)
 * CMake driven cross-platform package manager for C/C++.
-* Supported platforms: **Linux**, **Mac**, **Windows**. [![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)]
+* Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
 * tree-cli.cpp tree.h tree.cpp
 * catch.hpp(by hunter) main.cpp test1.cpp
 * Hunter by Ruslo: <a href="https://github.com/ruslo/hunter"><img src="https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79"/></a>
-* Created by Zinchenko && Shmakov /BMSTU/. [![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)]
-* Copyright © 2018 iso4datel && geminishkv. All rights reserved. [![DUB](https://img.shields.io/dub/l/vibe-d.svg)][![PyPI - License](https://img.shields.io/pypi/l/Django.svg)]
+* Created by Zinchenko && Shmakov /BMSTU/. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
+* Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
-### Demowiew_dev && saw repo: artifacts_all [![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Cockatrice/Cockatrice.svg)]
+### Demowiew_dev && saw repo: artifacts_all ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
