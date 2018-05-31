@@ -162,7 +162,7 @@ $ cd ..
 * Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
 * File's4Code c++: tree-cli.cpp tree.h tree.cpp
 * Test's files: catch.hpp(realised by hunter) main.cpp test1.cpp
-* Hunter by Ruslo: ![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)(https://github.com/ruslo/hunter)
+* Hunter by Ruslo: [![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)](https://github.com/ruslo/hunter)
 * Created by Zinchenko && Shmakov /BMSTU/. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
