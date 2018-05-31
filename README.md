@@ -17,7 +17,7 @@
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
 
-[![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)]
+![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
 ```
 Целью данного проекта является разработка программно-аппаратной части реализации функционала 
 прозода по двоичному дереву BSTree: в соотвествии с указанными политиками исполднения кода, по серии ОСТ, 
@@ -51,7 +51,7 @@
 8. Завершить работу программы
 ```
 
-[![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)]
+![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
 ```
 Этапы: 
 1. ✔️
@@ -64,7 +64,8 @@
 8. ✔️
 ```
 
-### Формализованные требования:
+
+### Формализованные требования: ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
 - ✔️ Единый стиль кода;
 - ✔️ Проверка утилитой **cpplint**;
 - ✔️ Все функции по работе с деревом должны находиться в пространстве имен `BSTree`;
@@ -85,7 +86,7 @@
 и master.
 
 
-### How to Build  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)
+### How to Build  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
 
 * Building BSTree:
 ```ShellSession
@@ -145,7 +146,7 @@ $ cd ..
 ### Links 
 * 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
 * 📦 Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<https://img.shields.io/badge/releases-latest-green.svg"/></a>
-* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)(https://github.com/ruslo/hunter/tree/v0.19.79)
+* 📘 Hunter:  ![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)(https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 
@@ -157,8 +158,8 @@ $ cd ..
 * BSTree_dev ![Elijah Doman Directory](https://img.shields.io/badge/Elijah%20Doman%2FShmakov%20Directory-liquid%20true-green.svg)
 * CMake driven cross-platform package manager for C/C++.
 * Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
-* tree-cli.cpp tree.h tree.cpp
-* catch.hpp(by hunter) main.cpp test1.cpp
+* File's4Code c++: tree-cli.cpp tree.h tree.cpp
+* Test's files: catch.hpp(realised by hunter) main.cpp test1.cpp
 * Hunter by Ruslo: <a href="https://github.com/ruslo/hunter"><img src="https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79"/></a>
 * Created by Zinchenko && Shmakov /BMSTU/. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
 * Copyright © 2018 iso4datel && geminishkv. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
