@@ -7,7 +7,7 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME
-    print
+    tree-cli
     VERSION
     "0.1.0.0"
     URL
@@ -21,8 +21,9 @@ hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cmake_args(
     print
     CMAKE_ARGS
-    BUILD_EXAMPLES=NO
-    BUILD_TESTS=NO
+    BUILD_EXAMPLES=ON
+    BUILD_TESTS=ON
 )
-hunter_cacheable(print)
-hunter_download(PACKAGE_NAME print)
+
+hunter_cacheable(tree-cli)
+hunter_download(PACKAGE_NAME tree-cli)

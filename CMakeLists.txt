@@ -9,8 +9,8 @@ option(BUILD_TESTS "Build tests" ON)
 include(cmake/HunterGate.cmake)
 
 HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.21.16.tar.gz"
-    SHA1 "aa1faccd24f33dd2c368f85a4e9ca2e5d9c249cb"
+    URL "https://github.com/ruslo/hunter/archive/v0.22.0.tar.gz"
+    SHA1 "f91a01c6e0eb53b1dc55a6442cd93580db91da07"
 )
 
 project(tree)
