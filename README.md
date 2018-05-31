@@ -1,7 +1,7 @@
 ### BSTree_demo_bmstu_dev: ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![GitHub issue author](https://img.shields.io/badge/developer-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
 
 
-###Shield's 4 interpritateproject: [Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
+### Shield's 4 interpritateproject: [Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
@@ -16,7 +16,7 @@
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
 
-###InfoData: ![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData: ![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Целью данного проекта является разработка программно-аппаратной части реализации функционала 
 прозода по двоичному дереву BSTree: в соотвествии с указанными политиками исполднения кода, по серии ОСТ, 
@@ -25,13 +25,13 @@
 поиска по распределенным вариантам. 
 ```
 
-###InfoData:![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData:![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. 
 Группа - ИУ8-21М.
 ```
 
-###InfoData:![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData:![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Целью является разработка работы двоичным деревом поиска со следующим TUI(управлением):
 Выберите одну из операций:
@@ -48,7 +48,7 @@
 8. Завершить работу программы
 ```
 
-###InfoData:![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData:![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Этапы: 
 1. ✔️
