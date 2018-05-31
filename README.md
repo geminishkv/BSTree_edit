@@ -1,18 +1,30 @@
-### BSTree_demo_bmstu_dev 
+### BSTree_demo_bmstu_dev [![GitHub issue author](https://img.shields.io/github/issues/detail/u/badges/shields/979.svg)][![GitHub issue author]( https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-Brightgreen%20.svg)]
+[![Pull Request Stats (long form)](https://img.shields.io/issuestats/p/long/github/expressjs/express.svg)]
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
 [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)]
+[![AUR](https://img.shields.io/aur/license/travis.svg)]
+[![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)]
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)]
+[![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)]
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]
+[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)]
+[![Read the Docs (version)](https://img.shields.io/readthedocs/pip/stable.svg)]
+[![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)]
+[![Jenkins tests](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)]
+
 
 ```
 Целью данного проекта является разработка программно-аппаратной части реализации функционала 
 прозода по двоичному дереву BSTree: в соотвествии с указанными политиками исполднения кода, по серии ОСТ, 
 в том числе относительно основополагающих требований и формаций для языка программирования С++, а также
 форматов исполнения требований согласно приведенной локументации для работы с двоичным деревом 
-поиска по распределенным вариантам.
+поиска по распределенным вариантам. [![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)]
 ```
 
 ```
-Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. 
+Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. [![JIRA sprint completion](https://img.shields.io/jira/sprint/https/jira.spring.io/93.svg)]
 Группа - ИУ8-21М.
 ```
 
@@ -36,7 +48,7 @@
 ```
 
 ```
-Этапы:
+Этапы: [![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens.svg)]
 1. ✔️
 2. ✔️
 3. ✔️
@@ -125,19 +137,26 @@ $ cpack -G "TGZ"
 $ cd ..
 ```
 
-### Links
+### Links [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)]
 * 📘 Documentation: <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
-* 📦 Release: [not available yet]()
+* 📦  &#xe024; Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<"https://github.com/geminishkv/BSTree_edit/releases/latest"/></a>
 * 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-  [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
+[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
+[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
+[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]
+
+https://img.shields.io/vaadin-directory/v/vaadinvaadin-grid.svg
 
 ### Rights 4usage
-* BSTree_dev
+* BSTree_dev [![Elijah Doman Directory](https://img.shields.io/vaadin-directory/v/elijahdoman-grid.svg)]
+* CMake driven cross-platform package manager for C/C++.
+* Supported platforms: **Linux**, **Mac**, **Windows**. [![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)]
 * tree-cli.cpp tree.h tree.cpp
-* catch.hpp main.cpp test1.cpp
-* Created by Zinchenko && Shmakov /BMSTU/.
-* Copyright © 2018 iso4datel && geminishkv. All rights reserved.
-
-### Demowiew_dev && saw repo: artifacts_all
-[![asciicast][not available yet]()
+* catch.hpp(by hunter) main.cpp test1.cpp
+* Hunter by Ruslo: <a href="https://github.com/ruslo/hunter"><img src="https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79"/></a>
+* Created by Zinchenko && Shmakov /BMSTU/. [![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)]
+* Copyright © 2018 iso4datel && geminishkv. All rights reserved. [![DUB](https://img.shields.io/dub/l/vibe-d.svg)][![PyPI - License](https://img.shields.io/pypi/l/Django.svg)]
+ 
+### Demowiew_dev && saw repo: artifacts_all [![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Cockatrice/Cockatrice.svg)]

@@ -1,15 +1,32 @@
 language: cpp
 
+dist: trusty
+
 script:
 - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON
 - cmake --build _build
 - cmake --build _build --target install
 - cmake --build _build --target test -- ARGS=--verbose
 
+cache:
+  - apt
+
 addons:
   apt:
     sources:
       - george-edison55-precise-backports
+      - google-chrome
     packages:
       - cmake
       - cmake-data
+      - google-chrome-stable
+
+branches:
+ only:
+ - master
+ - crossdevelop
+
+before_install:
+ - chmod +x 
+
+

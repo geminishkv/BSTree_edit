@@ -3,6 +3,7 @@
 //  Created by Zinchenko && Shmakov /bmstu/.
 //  Copyright © 2018 iso4datel && geminishkv. All rights reserved.
 //
+
 #include <tree.hpp>
 
 BSTree::Tree::Tree() {
@@ -15,6 +16,7 @@ BSTree::Tree::Tree(const std::initializer_list<Data>& list) {
 }
 
 BSTree::Tree::Tree(Tree&& tree) : root(std::move(tree.root)) {
+    tree.root = nullptr; 
 }
 
 BSTree::Tree::Tree(const Tree& tree) {
@@ -356,6 +358,16 @@ BSTree::Tree& BSTree::Tree::operator=(const BSTree::Tree& tree) {
 }
 
 BSTree::Tree& BSTree::Tree::operator=(BSTree::Tree&& tree) {
+
+    // Delete old nodes 
+    BSTree::Handle handle = [](const Node* node) {
+        delete node;    // insert - new, destructor - delete
+        return false;
+    };
+
+    traversal(nullptr, nullptr, handle);
+    root = nullptr;
+
     root = tree.root;
     return *this;
 }

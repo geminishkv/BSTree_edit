@@ -6,19 +6,27 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(BUILD_EXAMPLES "Build examples" ON)
 option(BUILD_TESTS "Build tests" ON)
 
+include(cmake/HunterGate.cmake)
+
+HunterGate(
+    URL "https://github.com/ruslo/hunter/archive/v0.21.16.tar.gz"
+    SHA1 "aa1faccd24f33dd2c368f85a4e9ca2e5d9c249cb"
+)
+
 project(tree)
 
 include_directories("${CMAKE_SOURCE_DIR}/include")
-include(CPackConfig.cmake)
-include(cmake/HunterGate.cmake)
 
-set(PRINT_VERSION_MAJOR 0)
-set(PRINT_VERSION_MINOR 1)
-set(PRINT_VERSION_PATCH 0)
-set(PRINT_VERSION_TWEAK 0)
-set(PRINT_VERSION 
-${PRINT_VERSION_MAJOR}.${PRINT_VERSION_MINOR}.${PRINT_VERSION_PATCH}.${PRINT_VERSION_TWEAK})
-set(PRINT_VERSION_STRING "v${PRINT_VERSION}")
+hunter_add_package(Catch)
+find_package(Catch CONFIG REQUIRED)
+
+set(TREE_VERSION_MAJOR 0)
+set(TREE_VERSION_MINOR 1)
+set(TREE_VERSION_PATCH 0)
+set(TREE_VERSION_TWEAK 0)
+set(TREE_VERSION 
+${TREE_VERSION_MAJOR}.${TREE_VERSION_MINOR}.${TREE_VERSION_PATCH}.${TREE_VERSION_TWEAK})
+set(TREE_VERSION_STRING "v${TREE_VERSION}")
 
 add_library(tree STATIC ${CMAKE_CURRENT_SOURCE_DIR}/sources/tree.cpp)
 
@@ -28,15 +36,11 @@ target_include_directories(tree PUBLIC
 )
 
 if(BUILD_EXAMPLES)
-  file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/tree-cli.cpp")
-  foreach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
-    get_filename_component(EXAMPLE_NAME ${EXAMPLE_SOURCE} NAME_WE)
-    add_executable(${EXAMPLE_NAME} ${EXAMPLE_SOURCE})
-    target_link_libraries(${EXAMPLE_NAME} tree)
-    install(TARGETS ${EXAMPLE_NAME}
-      RUNTIME DESTINATION bin
-    )
-  endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
+  add_executable(tree-cli "${CMAKE_CURRENT_SOURCE_DIR}/examples/tree-cli.cpp")
+  target_link_libraries(tree-cli tree)
+  install(TARGETS tree-cli
+    RUNTIME DESTINATION bin
+  )
 endif()
 
 install(TARGETS tree 
@@ -49,17 +53,14 @@ install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 install(EXPORT tree-config DESTINATION cmake)
 
 if(BUILD_TESTS)
-enable_testing()
-file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
-message(STATUS "PROJECT_NAME: [${PROJECT_NAME}]")
-add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
-message(STATUS "PROJECT_NAME_TEST_SOURCES: [${${PROJECT_NAME}_TEST_SOURCES}]")
-target_link_libraries(check tree ${DEPENDS_LIBRARIES})
-target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
-message(STATUS "DEPENDS LIBS: [${DEPENDS_LIBRARIES}]")
-add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
+  enable_testing()
+  file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
+  add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
+  target_link_libraries(check tree Catch::Catch)
+  add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
 endif()
 
+include(CPackConfig.cmake)
 
 
 
