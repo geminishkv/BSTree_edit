@@ -17,7 +17,7 @@
 ![continuousphp](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
 
 
-![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
+![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Целью данного проекта является разработка программно-аппаратной части реализации функционала 
 прозода по двоичному дереву BSTree: в соотвествии с указанными политиками исполднения кода, по серии ОСТ, 
@@ -32,11 +32,9 @@
 Группа - ИУ8-21М.
 ```
 
+![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Целью является разработка работы двоичным деревом поиска со следующим TUI(управлением):
-```
-
-```
 Выберите одну из операций:
 1. Вывести дерево на экран
 2. Вывести список узлов дерева 
@@ -51,7 +49,7 @@
 8. Завершить работу программы
 ```
 
-![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
 Этапы: 
 1. ✔️
@@ -86,7 +84,7 @@
 и master.
 
 
-### How to Build  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
+### How to Build  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
 
 * Building BSTree:
 ```ShellSession
@@ -146,12 +144,10 @@ $ cd ..
 ### Links 
 * 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
 * 📦 Release: <a href="https://github.com/geminishkv/BSTree_edit/releases"><img scr=<https://img.shields.io/badge/releases-latest-green.svg"/></a>
-* 📘 Hunter:  ![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)(https://github.com/ruslo/hunter/tree/v0.19.79)
+* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
 * 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
-
-4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) 
-4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
+* 📦 Build's 4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]
 
 ### Rights 4usage
