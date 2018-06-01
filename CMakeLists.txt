@@ -4,8 +4,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDART ON)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-option(BUILD_EXAMPLES "Build examples" ON)
-option(BUILD_TESTS "Build tests" ON)
+option(BUILD_EXAMPLES "Build examples" NO)
+option(BUILD_TESTS "Build tests" NO)
 
 project(tree)
 
