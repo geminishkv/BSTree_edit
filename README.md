@@ -1,7 +1,8 @@
 ### BSTree_demo_bmstu_dev ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![GitHub issue author](https://img.shields.io/badge/developer-geminishkv__dev-green.svg)![GitHub issue author](https://img.shields.io/badge/Co--Develop-Yanis%20Zinchenko%20(iso4datel)-green.svg)
 
 
-### Shield's 4 interpritateproject 
+### Shield's 4 interpritateproject
+![Elijah Doman Directory](https://img.shields.io/badge/Elijah%20Doman%2FShmakov%20Directory-liquid%20true-green.svg) 
 ![Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) <a href="https://geminishkv.github.io/BSTree_edit/"><img src="https://codedocs.xyz/doxygen/doxygen.svg"/></a>
@@ -12,14 +13,14 @@
 ![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
 ![AUR](https://img.shields.io/aur/license/yaourt.svg)
 ![AUR](https://img.shields.io/aur/license/travis.svg)
-![GitHub manifest version](https://img.shields.io/github/manifest-json/v/RedSparr0w/IndieGala-Helper.svg)
-![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)
-![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg)
-[![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
-![Jenkins test](https://img.shields.io/jenkins/t/https/jenkins.qa.ubuntu.com/view/Precise/view/All%20Precise/job/precise-desktop-amd64_default.svg)
-![JIRA issue](https://img.shields.io/jira/issue/https/issues.apache.org/jira/release.svg)
+![GitHub manifest version](https://img.shields.io/badge/manifest-7.9.4.5.v1-blue.svg)
+![GitHub release](https://img.shields.io/badge/release-7.9.4.5-blue.svg)
+![npm (scoped)](https://img.shields.io/badge/npm-passed-green.svg)
+[![version](https://img.shields.io/badge/hunter-v0.19.137.1-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.137.1)
+![Elijah Doman test](https://img.shields.io/badge/test%27s-12%2F12-green.svg)
+[![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)
 ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
-
+![Passed HomeWork](https://img.shields.io/badge/HomeWork4BMSTU__by__geminishkv__dev-passed-green.svg)
 
 ### InfoData ![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
 ```
@@ -30,7 +31,7 @@
 поиска по распределенным вариантам. 
 ```
 
-### InfoData ![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)
+### InfoData ![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)
 ```
 Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей. 
 Группа - ИУ8-21М.

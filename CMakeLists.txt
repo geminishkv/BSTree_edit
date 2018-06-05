@@ -9,21 +9,22 @@ option(BUILD_TESTS "Build tests" ON)
 include(cmake/HunterGate.cmake)
 
 HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.22.0.tar.gz"
-    SHA1 "f91a01c6e0eb53b1dc55a6442cd93580db91da07"
+    URL "https://github.com/geminishkv/hunter/archive/v0.19.137.1.tar.gz"
+    SHA1 "116a39be623b7cf2e85a3d229babcec07506406a"
 )
 
 project(tree)
 
-include_directories("${CMAKE_SOURCE_DIR}/include")
-
 hunter_add_package(Catch)
 find_package(Catch CONFIG REQUIRED)
+
+include_directories("${CMAKE_SOURCE_DIR}/include")
 
 set(TREE_VERSION_MAJOR 0)
 set(TREE_VERSION_MINOR 1)
 set(TREE_VERSION_PATCH 0)
 set(TREE_VERSION_TWEAK 0)
+
 set(TREE_VERSION 
 ${TREE_VERSION_MAJOR}.${TREE_VERSION_MINOR}.${TREE_VERSION_PATCH}.${TREE_VERSION_TWEAK})
 set(TREE_VERSION_STRING "v${TREE_VERSION}")
@@ -35,14 +36,6 @@ target_include_directories(tree PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
-if(BUILD_EXAMPLES)
-  add_executable(tree-cli "${CMAKE_CURRENT_SOURCE_DIR}/examples/tree-cli.cpp")
-  target_link_libraries(tree-cli tree)
-  install(TARGETS tree-cli
-    RUNTIME DESTINATION bin
-  )
-endif()
-
 install(TARGETS tree 
     EXPORT tree-config
     ARCHIVE DESTINATION lib
@@ -51,6 +44,14 @@ install(TARGETS tree
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 install(EXPORT tree-config DESTINATION cmake)
+
+if(BUILD_EXAMPLES)
+  add_executable(tree-cli "${CMAKE_CURRENT_SOURCE_DIR}/examples/tree-cli.cpp")
+  target_link_libraries(tree-cli tree)
+  install(TARGETS tree-cli
+    RUNTIME DESTINATION bin
+  )
+endif()
 
 if(BUILD_TESTS)
   enable_testing()

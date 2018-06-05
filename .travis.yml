@@ -1,7 +1,5 @@
 language: cpp
 
-dist: trusty
-
 script:
 - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON
 - cmake --build _build
@@ -15,18 +13,14 @@ addons:
   apt:
     sources:
       - george-edison55-precise-backports
-      - google-chrome
+      #- google-chrome
     packages:
       - cmake
       - cmake-data
-      - google-chrome-stable
+      #- google-chrome-stable
 
 branches:
  only:
- - master
+ #- master
  - crossdevelop
-
-before_install:
- - chmod +x 
-
 

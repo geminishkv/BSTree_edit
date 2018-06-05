@@ -3,6 +3,7 @@
 //  Created by Zinchenko && Shmakov /bmstu/.
 //  Copyright © 2018 iso4datel && geminishkv. All rights reserved.
 //
+
 #include <limits>
 #include <iostream>
 #include <fstream>
