@@ -91,7 +91,7 @@
 ветки `develop` и `master`.
 
 
-### Issues how to Build and 4runInit  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
+### Issues how to Build and 4runInit  ![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 
 * Building BSTree:
 ```ShellSession
@@ -149,13 +149,15 @@ $ cd ..
 ```
 
 ### Form links 
-* 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)
-* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
-* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)
-* 📦 Build's:  [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
+* 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📦 Build's:  ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
-* 📦 Build's 4master branch:[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
+* 📦 Build's 4master branch:![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+[![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=crossdevelop)](https://travis-ci.org/geminishkv/BSTree_edit) [![Build Status](https://travis-ci.org/geminishkv/BSTree_edit.svg?branch=master)](https://travis-ci.org/geminishkv/BSTree_edit) 
 ![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
 
