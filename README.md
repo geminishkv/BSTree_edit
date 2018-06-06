@@ -162,13 +162,13 @@ $ cd ..
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
 
 ### Rights 4usage
-* **BSTree_dev** ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg)![Elijah Doman Directory](https://img.shields.io/badge/Elijah%20Doman%2FShmakov%20Directory-liquid%20true-green.svg)
-* **CMake** driven cross-platform package manager for `C/C++`.
-* Supported platforms: **Linux**, **Mac**, **Windows**. ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/osrf/gazebo.svg)
-* File's4Code `C++`: `tree-cli.cpp` `tree.h` `tree.cpp`
-* Test's files: `catch.hpp(realised by hunter)` `main.cpp` `test1.cpp`
+* **BSTree_dev** ![GitHub issue author](https://img.shields.io/badge/RelaseAuthor-Elijah%20Doman(Shmakov)-green%20.svg) ![Elijah Doman Directory](https://img.shields.io/badge/Elijah%20Doman%2FShmakov%20Directory-liquid%20true-green.svg)
+* **CMake** driven cross-platform package manager for `C/C++`.![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)
+* Supported platforms: **Linux**, **Mac**, **Windows**. ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg) ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
+* File's4Code `C++`: `tree-cli.cpp` `tree.h` `tree.cpp`![GitHub manifest version](https://img.shields.io/badge/manifest-7.9.4.5.v1-blue.svg) ![GitHub release](https://img.shields.io/badge/release-7.9.4.5-blue.svg)
+* Test's files: `catch.hpp(realised by hunter)` `main.cpp` `test1.cpp` ![Elijah Doman test](https://img.shields.io/badge/passed%20tests-15%2F15-green.svg)
 * **Hunter** dev by **Ruslo**: [![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)](https://github.com/ruslo/hunter)
-* Created by **Zinchenko** && **Shmakov** 4 **BMSTU**. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)
+* Created by **Zinchenko** && **Shmakov** 4 **BMSTU**. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg) ![Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 * Copyright © 2018 **iso4datel** && **geminishkv**. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
 ### Demowiew_dev && saw repo: artifacts_all ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
