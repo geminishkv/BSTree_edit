@@ -22,10 +22,6 @@ script:
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
 
-branches:
- only:
- - crossdevelop
-
 deploy:
   provider: releases
   api_key: "37eedc1da054007d2dcaffb4aaca657516f56ed3"
