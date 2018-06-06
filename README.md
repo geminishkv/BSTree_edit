@@ -172,7 +172,10 @@ $ cd ..
 * Copyright © 2018 **iso4datel** && **geminishkv**. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
 ### THX for subscribing and covearage Saw repo: artifacts_all 
+![GitHub manifest version](https://img.shields.io/badge/manifest-7.9.4.5.v1-blue.svg) 
+![GitHub release](https://img.shields.io/badge/release-7.9.4.5-blue.svg)
 ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
+![Elijah Doman test](https://img.shields.io/badge/passed%20tests-15%2F15-green.svg)
 [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)
 ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
