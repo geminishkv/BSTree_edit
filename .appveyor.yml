@@ -1,7 +1,11 @@
-version: 7.9.4.5 {build}
+# version: 7.9.4.5 {build}
+version: 1.0.{build}
 
 image: 
   - Ubuntu
+
+install:
+  - sudo apt -y install lcov
 
 init:
     # секция инициализации, исполняется до клонирования проекта
@@ -37,32 +41,35 @@ install:
     - 7z e -y <local-file> -o<local-dir>
 
 before_build:
-  - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DCPACK_GENERATOR="TGZ" 
+  - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ" 
 
 build_script:
     # скрипт сборки проекта
     - cmake --build _build
     - cmake --build _build --target install
-    - cmake .. %CMAKE_CONFIGURE_FLAGS%
-    - cmake --build . %CMAKE_BUILD_FLAGS%
+    - cmake --build _build --target unit_tests_coverage
+    - cmake --build _build --target package
+  # - cmake .. %CMAKE_CONFIGURE_FLAGS%
+  # - cmake --build . %CMAKE_BUILD_FLAGS%
 
 after_build:
   - cd _build 
   - cpack -G "TGZ" 
   - cd ..
-  - cmake --build _build --target package 
+# - cmake --build _build --target package 
 
 test_script:
     # скрипт тестирования проекта
     - cd _build
-    - ctest -C %CONFIGURATION% --output-on-failure
-    - ./check -s -r compact
+    - make unit_tests_coverage
+  # - ctest -C %CONFIGURATION% --output-on-failure
+  # - ./check -s -r compact
 
 artifacts:
     - path: <local-package-path>
       name: package_name
 
-deploy:
+ deploy:
     # выкладываем tagged-коммиты на GitHub Releases
     description: '$(APPVEYOR_REPO_TAG_NAME)'
     provider: GitHub

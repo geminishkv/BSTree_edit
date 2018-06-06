@@ -35,38 +35,38 @@
 
 ### InfoData 2 ![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![PyPI - Status](https://img.shields.io/badge/status-stable-green.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 ```
-**Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей.** 
-**Группа - ИУ8-21М.**
+Работа выполнена непосредственно: Зинченко Янисом, Шмаковым Ильей.
+Группа - ИУ8-21М.
 ```
 
 ### InfoData 3 ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 ```
 Целью является разработка работы двоичным деревом поиска со следующим `TUI(управлением)`:
 Выберите одну из операций:
-**1. Вывести дерево на экран**
-**2. Вывести список узлов дерева**
-   **a. Прямой обход**
-   **b. Поперечный обход**
-   **c. Обратный обход**
-**3. Добавить узел в дерево**
-**4. Удалить узел из дерева**
-**5. Сохранить дерево в файл**
-**6. Загрузить дерево из файла**
-**7. Проверить наличие узла**
-**8. Завершить работу программы**
+1. Вывести дерево на экран
+2. Вывести список узлов дерева
+   a. Прямой обход
+   b. Поперечный обход
+   c. Обратный обход
+3. Добавить узел в дерево
+4. Удалить узел из дерева
+5. Сохранить дерево в файл
+6. Загрузить дерево из файла
+7. Проверить наличие узла
+8. Завершить работу программы
 ```
 
 ### InfoData 4 ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)![GitHub issue completes](https://img.shields.io/badge/Complete-100%25-green.svg)![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 ```
 Этапы реализации ПО `BSTree` на `С++`: 
-**1. ✔️**
-**2. ✔️**
-**3. ✔️**
-**4. ✔️**
-**5. ✔️**
-**6. ✔️**
-**7. ✔️**
-**8. ✔️**
+1. ✔️
+2. ✔
+3. ✔️
+4. ✔️
+5. ✔️
+6. ✔️
+7. ✔️
+8. ✔️
 ```
 
 
