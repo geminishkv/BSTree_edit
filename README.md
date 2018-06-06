@@ -178,4 +178,3 @@ $ cd ..
 ![Elijah Doman test](https://img.shields.io/badge/passed%20tests-15%2F15-green.svg)
 [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)
 ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
-![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
