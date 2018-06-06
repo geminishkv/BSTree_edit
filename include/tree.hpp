@@ -26,6 +26,8 @@ namespace BSTree {
         post
     };
 
+//konstr po ymplchaniu
+
 struct Node {
     Data data;                // value of data
     Node* left = nullptr;     // ptr to left node

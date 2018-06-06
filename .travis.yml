@@ -1,16 +1,5 @@
 language: cpp
 
-script:
-- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
-- cmake --build _build
-- cmake --build _build --target install
-- cmake --build _build --target test -- ARGS=--verbose
-- cmake --build _build --target unit_tests_coverage
-- cmake --build _build --target package
-
-cache:
-  - apt
-
 addons:
   apt:
     sources:
@@ -22,7 +11,26 @@ addons:
       - lcov
       #- google-chrome-stable
 
+cache:
+  - apt
+
+script:
+- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
+- cmake --build _build
+- cmake --build _build --target install
+- cmake --build _build --target test -- ARGS=--verbose
+- cmake --build _build --target unit_tests_coverage
+- cmake --build _build --target package
+
 branches:
  only:
  #- master
  - crossdevelop
+
+deploy:
+  provider: releases
+  api_key: "37eedc1da054007d2dcaffb4aaca657516f56ed3"
+  file: _build/*.tar.gz
+  skip_cleanup: true
+  on:
+    tags: true
