@@ -171,7 +171,5 @@ $ cd ..
 * Created by **Zinchenko** && **Shmakov** 4 **BMSTU**. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg) ![Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 * Copyright © 2018 **iso4datel** && **geminishkv**. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
  
-### Demowiew_dev && saw repo: artifacts_all ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
-
-
-### THX for subscribing and covearage
+### THX for subscribing and covearage Saw repo: artifacts_all 
+![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
