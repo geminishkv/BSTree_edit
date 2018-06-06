@@ -22,10 +22,18 @@ script:
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
 
+branches:
+ only:
+ #- master
+ - crossdevelop
+
 deploy:
   provider: releases
-  api_key: "37eedc1da054007d2dcaffb4aaca657516f56ed3"
+  api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
   file: _build/*.tar.gz
   skip_cleanup: true
   on:
     tags: true
+
+
+#gitlub
