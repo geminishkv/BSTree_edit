@@ -47,6 +47,7 @@ install(EXPORT tree-config DESTINATION cmake)
 
 if(BUILD_EXAMPLES)
   add_executable(tree-cli "${CMAKE_CURRENT_SOURCE_DIR}/examples/tree-cli.cpp")
+ #file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
   target_link_libraries(tree-cli tree)
   install(TARGETS tree-cli
     RUNTIME DESTINATION bin
@@ -56,13 +57,24 @@ endif()
 if(BUILD_TESTS)
   enable_testing()
   file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
+ #message(STATUS "PROJECT_NAME: [${PROJECT_NAME}]")
   add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
+ #message(STATUS "PROJECT_NAME_TEST_SOURCES: [${${PROJECT_NAME}_TEST_SOURCES}]")
   target_link_libraries(check tree Catch::Catch)
+ #message(STATUS "DEPENDS LIBS: [${DEPENDS_LIBRARIES}]") // if usage next type:
+ #target_link_libraries(check tree tui ${DEPENDS_LIBRARIES})
   add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
+    if (${CMAKE_BUILD_TYPE} MATCHES "Coverage")
+    set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}")
+    include(CodeCoverage)
+    set(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
+    set(LCOV_REMOVE_EXTRA "${CMAKE_CURRENT_SOURCE_DIR}/tests/*" "${CMAKE_CURRENT_SOURCE_DIR}/sources/*.cpp" "/Library/Developer/CommandLineTools/usr/include/c++/v1/*")
+    add_executable(unit_tests ${${PROJECT_NAME}_SOURCES} ${${PROJECT_NAME}_TEST_SOURCES})
+    target_link_libraries(unit_tests tree ${DEPENDS_LIBRARIES})
+    setup_target_for_coverage(unit_tests_coverage unit_tests coverage)
+    else()
+    add_test(NAME unit_tests COMMAND unit_tests "-s" "-r" "compact" "--use-colour" "yes")
+    endif()
 endif()
 
 include(CPackConfig.cmake)
-
-
-
-

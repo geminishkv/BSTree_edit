@@ -13,9 +13,13 @@
 - Initial crossdevmov CPack + Docker
 
 * Sat May 27 2018 geminishkv <gshkvbmstu@gmail.com> 6.2.7.1 (init 4cppfls: 0.1.0.0)
-- Initial other all4steps + all atributes  
+- Initial other all4steps + all atributes
 
 * Trd May 31 2018 geminishkv <gshkvbmstu@gmail.com> 7.9.4.5 (init 4cppfls: 0.1.0.0)
 - Initial RPM + all4kind_release + last_release and develop to master branch
+
+* Wed June 6 2018 geminishkv <gshkvbmstu@gmail.com> 7.9.4.5 (init 4cppfls: 0.1.0.0)
+- Initial RPM + all4kind_release + latest_release and develop to master branch + reacreat alldir
+- + new_init + init4tests + verify attachments + add attributed
 
 
