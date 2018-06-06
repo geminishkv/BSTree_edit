@@ -149,10 +149,10 @@ $ cd ..
 ```
 
 ### Form links 
-* 📘 Documentation: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
-* 📦 Release: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
-* 📘 Hunter:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
-* 📦 Build's:  ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📘 **Documentation**: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg) ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📦 **Release**: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases) ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg) ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📘 **Hunter**:  [![version](https://img.shields.io/badge/hunter-v0.19.79-blue.svg)](https://github.com/ruslo/hunter/tree/v0.19.79) ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
+* 📦 **Build's**:  ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 [![Build status](https://ci.appveyor.com/api/projects/status/cr2xwpwe3iiafbwg?svg=true)](https://ci.appveyor.com/project/geminishkv/bstree-edit)
 ![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)
@@ -173,3 +173,6 @@ $ cd ..
  
 ### THX for subscribing and covearage Saw repo: artifacts_all 
 ![GitHub (Pre-)Release Date](https://img.shields.io/badge/Rlease%20Date-May-blue.svg)
+[![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases)
+![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
+![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
