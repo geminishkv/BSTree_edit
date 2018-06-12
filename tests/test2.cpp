@@ -10,9 +10,9 @@
 TEST_CASE("Test tree", "[tree]"){
 	
 	// experimental
-	std::string path = "test.txt";
-	std::initializer_list<BSTree::Data> exp_list = { 1, 2, 12, 0, 10, 3, 4, 5 };
-	std::vector<BSTree::Data> exp_vector(exp_list);
+	//std::string path = "test.txt";
+	//std::initializer_list<BSTree::Data> exp_list = { 1, 2, 12, 0, 10, 3, 4, 5 };
+	//std::vector<BSTree::Data> exp_vector(exp_list);
 
     std::cout <<"Проверка работы сообщений для пустого дерева" << std::endl;
 	BSTree::Tree tree_empty;
