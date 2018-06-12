@@ -22,4 +22,6 @@
 - Initial RPM + all4kind_release + latest_release and develop to master branch + reacreat alldir
 - + new_init + init4tests + verify attachments + add attributed
 
-
+* Wed June 13 2018 geminishkv <gshkvbmstu@gmail.com> 7.9.4.5 (init 4cppfls: 0.1.0.0)
+- Initial RPM + all4kind_release + latest_release and develop to master branch + reacreat alldir
+- + new_init + init4tests + verify attachments + add attributed = LAST INIT 4TASKS
