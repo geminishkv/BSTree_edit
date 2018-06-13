@@ -1,5 +1,0 @@
-/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/_CPack_Packages/Linux/TGZ/tree-7.9.4.5v7-Linux/lib/libtree.a
-/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/_CPack_Packages/Linux/TGZ/tree-7.9.4.5v7-Linux/include/tree.hpp
-/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/_CPack_Packages/Linux/TGZ/tree-7.9.4.5v7-Linux/cmake/tree-config.cmake
-/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/_CPack_Packages/Linux/TGZ/tree-7.9.4.5v7-Linux/cmake/tree-config-coverage.cmake
-/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/_build/_CPack_Packages/Linux/TGZ/tree-7.9.4.5v7-Linux/bin/tree-cli
