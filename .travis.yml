@@ -22,10 +22,24 @@ script:
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
 
+#branches:
+# only:
+# - crossdevelop
+# - /v\d+\.\d+[a-z]/
+
+#before_deploy:
+      # Set up git user name and tag this commit
+#      - git config --local user.name "geminishkv"
+#      - git config --local user.email "gshkvbmstu@gmail.com"
+#      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+
 deploy:
   provider: releases
   api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
-  file: "_build/*.tar.gz"
+  file: _build/*.tar.gz
   skip_cleanup: true
   on:
     tags: true
+
+
+# can use gitlub how4alternative
