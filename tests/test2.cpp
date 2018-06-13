@@ -64,11 +64,11 @@ TEST_CASE("Test tree", "[tree]"){
 	if (file)
 		remove(path.c_str());
 	
-	std::cout << "Проверка вывода и обходов" << std::endl;
+	/*std::cout << "Проверка вывода и обходов" << std::endl;
 	BSTree::Tree orders(tree_constructors2);
 	orders.show();
 	orders.print(BSTree::traversal_order::pre);
 	orders.print(BSTree::traversal_order::in);
-	orders.print(BSTree::traversal_order::post);
+	orders.print(BSTree::traversal_order::post);*/
 
 }
