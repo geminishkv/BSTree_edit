@@ -147,7 +147,7 @@ $ cd _build
 $ cpack -G "TGZ"
 $ cd ..
 ```
-
+i
 ### Form links 
 * 📘 **Documentation**: ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg) [![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)](https://geminishkv.github.io/BSTree_edit/index.html)
 * 📦 **Release**: [![release](https://img.shields.io/badge/releases-latest-green.svg)](https://github.com/geminishkv/BSTree_edit/releases) ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg) ![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg)
