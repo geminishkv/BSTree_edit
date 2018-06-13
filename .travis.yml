@@ -24,7 +24,6 @@ script:
 
 branches:
  only:
- #- master - do slivania branchei dev v master
  - crossdevelop
  - /v\d+\.\d+[a-z]/
 
