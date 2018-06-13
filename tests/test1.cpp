@@ -7,7 +7,7 @@
 #include <catch.hpp>
 #include <tree.hpp>
 
-/*TEST_CASE("Test tree", "[tree]"){
+TEST_CASE("Test tree", "[tree]"){
 	
 	// experimental
 	std::string path = "test.txt";
@@ -72,4 +72,4 @@
 	orders.print(BSTree::traversal_order::in);
 	orders.print(BSTree::traversal_order::post);
 
-}*/
+}
