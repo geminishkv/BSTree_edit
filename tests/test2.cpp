@@ -44,7 +44,8 @@ TEST_CASE("Test tree", "[tree]"){
 	tree_operators2.print(BSTree::traversal_order::pre);
 
 	std::cout << "Проверка методов" << std::endl;
-	BSTree::Tree methods(tree_constructors2);
+	//BSTree::Tree methods(tree_constructors2);
+	BSTree::Tree methods(exp_list);
 	methods.show();
 
 	REQUIRE(methods.insert(11) == true);
