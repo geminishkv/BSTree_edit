@@ -38,7 +38,8 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
+  api_key: 
+     secure: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
   file_glob: true
   file: _build/*.tar.gz
   skip_cleanup: true
