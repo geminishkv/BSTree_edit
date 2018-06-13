@@ -26,6 +26,7 @@ branches:
  only:
  #- master - do slivania branchei dev v master
  - crossdevelop
+ - /v\d+\.\d+[a-z]/
 
 #before_deploy:
       # Set up git user name and tag this commit
@@ -36,7 +37,7 @@ branches:
 deploy:
   provider: releases
   api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
-  file: _build/*.tar.gz
+  file: "_build/*.tar.gz"
   skip_cleanup: true
   on:
     tags: true
