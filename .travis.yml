@@ -22,11 +22,6 @@ script:
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
 
-branches:
- only:
- - crossdevelop
- - /v\d+\.\d+[a-z]/
-
 before_deploy:
       # Set up git user name and tag this commit
       - git config --local user.name "geminishkv"
