@@ -1,0 +1,14 @@
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/test.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/package.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/edit_cache.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/package_source.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/check.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/tree-cli.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/tree.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/unit_tests_coverage.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/unit_tests.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/install/local.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/install.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/install/strip.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/list_install_components.dir
+/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CMakeFiles/rebuild_cache.dir

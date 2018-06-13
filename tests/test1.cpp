@@ -39,9 +39,9 @@ TEST_CASE("Test tree", "[tree]"){
 	BSTree::Tree tree_operators1;
 	tree_operators1 = tree_constructors5;				// =&
 	tree_operators1.print(BSTree::traversal_order::pre);
-	BSTree::Tree tree_operators5;
-	tree_operators5 = BSTree::Tree(exp_list);			// =&&
-	tree_operators5.print(BSTree::traversal_order::pre);
+	BSTree::Tree tree_operators2;
+	tree_operators2 = BSTree::Tree(exp_list);			// =&&
+	tree_operators2.print(BSTree::traversal_order::pre);
 
 	std::cout << "Проверка методов" << std::endl;
 	//BSTree::Tree methods(tree_constructors2);
@@ -67,7 +67,7 @@ TEST_CASE("Test tree", "[tree]"){
 	std::cout << "Проверка вывода и обходов" << std::endl;
 	//BSTree::Tree orders(tree_constructors2);
 	BSTree::Tree orders(exp_list);
-	//orders.show();
+	orders.show();
 	orders.print(BSTree::traversal_order::pre);
 	orders.print(BSTree::traversal_order::in);
 	orders.print(BSTree::traversal_order::post);
