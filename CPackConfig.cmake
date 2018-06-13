@@ -1,91 +1,46 @@
-# This file will be configured to contain variables for CPack. These variables
-# should be set in the CMake list file of the project before CPack module is
-# included. The list of available CPACK_xxx variables and their associated
-# documentation may be obtained using
-#  cpack --help-variable-list
-#
-# Some variables are common to all generators (e.g. CPACK_PACKAGE_NAME)
-# and some are specific to a generator
-# (e.g. CPACK_NSIS_EXTRA_INSTALL_COMMANDS). The generator specific variables
-# usually begin with CPACK_<GENNAME>_xxxx.
+# включаем в проект InstallRequiredSystemLibraries
+include(InstallRequiredSystemLibraries)
+  
+set(CPACK_PACKAGE_CONTACT gshkvbmstu@gmail.com)
 
+# формализация преднастроек определенных спецификайий в файл,
+# представление файла детализации и краткого описания
+set(CPACK_PACKAGE_VERSION_MAJOR ${TREE_VERSION_MAJOR})
+set(CPACK_PACKAGE_VERSION_MINOR ${TREE_VERSION_MINOR})
+set(CPACK_PACKAGE_VERSION_PATCH ${TREE_VERSION_PATCH})
+set(CPACK_PACKAGE_VERSION_TWEAK ${TREE_VERSION_TWEAK})
+set(CPACK_PACKAGE_VERSION ${TREE_VERSION})
+ 
+set(CPACK_PACKAGE_DESCRIPTION_FILE ${CMAKE_CURRENT_SOURCE_DIR}/DESCRIPTION)
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "static c++ library for printing")
 
-SET(CPACK_BINARY_7Z "")
-SET(CPACK_BINARY_BUNDLE "")
-SET(CPACK_BINARY_CYGWIN "")
-SET(CPACK_BINARY_DEB "OFF")
-SET(CPACK_BINARY_DRAGNDROP "")
-SET(CPACK_BINARY_IFW "OFF")
-SET(CPACK_BINARY_NSIS "OFF")
-SET(CPACK_BINARY_OSXX11 "")
-SET(CPACK_BINARY_PACKAGEMAKER "")
-SET(CPACK_BINARY_RPM "OFF")
-SET(CPACK_BINARY_STGZ "ON")
-SET(CPACK_BINARY_TBZ2 "OFF")
-SET(CPACK_BINARY_TGZ "ON")
-SET(CPACK_BINARY_TXZ "OFF")
-SET(CPACK_BINARY_TZ "ON")
-SET(CPACK_BINARY_WIX "")
-SET(CPACK_BINARY_ZIP "")
-SET(CPACK_CMAKE_GENERATOR "Unix Makefiles")
-SET(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
-SET(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
-SET(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://geminishkv.github.io/BSTree_edit/")
-SET(CPACK_DEBIAN_PACKAGE_NAME "lib4BSTree-dev")
-SET(CPACK_DEBIAN_PACKAGE_PREDEPENDS "cmake >= 3.0")
-SET(CPACK_DEBIAN_PACKAGE_RELEASE "1")
-SET(CPACK_GENERATOR "STGZ;TGZ;TZ")
-SET(CPACK_INSTALL_CMAKE_PROJECTS "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit;tree;ALL;/")
-SET(CPACK_INSTALL_PREFIX "/usr/local")
-SET(CPACK_MODULE_PATH "/home/geminishkv_dev/.hunter/_Base/Download/Hunter/0.19.137/116a39b/Unpacked/cmake/modules;/home/geminishkv_dev/.hunter/_Base/Download/Hunter/0.19.137/116a39b/Unpacked/cmake/find;/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit")
-SET(CPACK_NSIS_DISPLAY_NAME "tree 7.9.4.5v7")
-SET(CPACK_NSIS_INSTALLER_ICON_CODE "")
-SET(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
-SET(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES")
-SET(CPACK_NSIS_PACKAGE_NAME "tree 7.9.4.5v7")
-SET(CPACK_OUTPUT_CONFIG_FILE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CPackConfig.cmake")
-SET(CPACK_PACKAGE_CONTACT "gshkvbmstu@gmail.com")
-SET(CPACK_PACKAGE_DEFAULT_LOCATION "/")
-SET(CPACK_PACKAGE_DESCRIPTION_FILE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/DESCRIPTION")
-SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "static c++ library for printing")
-SET(CPACK_PACKAGE_FILE_NAME "tree-7.9.4.5v7-Linux")
-SET(CPACK_PACKAGE_INSTALL_DIRECTORY "tree 7.9.4.5v7")
-SET(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "tree 7.9.4.5v7")
-SET(CPACK_PACKAGE_NAME "tree")
-SET(CPACK_PACKAGE_RELOCATABLE "true")
-SET(CPACK_PACKAGE_VENDOR "Humanity")
-SET(CPACK_PACKAGE_VERSION "7.9.4.5v7")
-SET(CPACK_PACKAGE_VERSION_MAJOR "7")
-SET(CPACK_PACKAGE_VERSION_MINOR "9")
-SET(CPACK_PACKAGE_VERSION_PATCH "4")
-SET(CPACK_PACKAGE_VERSION_TWEAK "5v7")
-SET(CPACK_RESOURCE_FILE_LICENSE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/LICENSE")
-SET(CPACK_RESOURCE_FILE_README "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/DESCRIPTIONS.md")
-SET(CPACK_RESOURCE_FILE_WELCOME "/usr/share/cmake-3.5/Templates/CPack.GenericWelcome.txt")
-SET(CPACK_RPM_CHANGELOG_FILE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/ChangeLog.md")
-SET(CPACK_RPM_PACKAGE_GROUP "BSTree_interpretate's")
-SET(CPACK_RPM_PACKAGE_LICENSE "MIT")
-SET(CPACK_RPM_PACKAGE_NAME "tree-crossdevelop")
-SET(CPACK_RPM_PACKAGE_RELEASE "1")
-SET(CPACK_RPM_PACKAGE_URL "https://github.com/geminishkv/BSTree_edit.git")
-SET(CPACK_SET_DESTDIR "OFF")
-SET(CPACK_SOURCE_7Z "")
-SET(CPACK_SOURCE_CYGWIN "")
-SET(CPACK_SOURCE_GENERATOR "TBZ2;TGZ;TXZ;TZ")
-SET(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CPackSourceConfig.cmake")
-SET(CPACK_SOURCE_TBZ2 "ON")
-SET(CPACK_SOURCE_TGZ "ON")
-SET(CPACK_SOURCE_TXZ "ON")
-SET(CPACK_SOURCE_TZ "ON")
-SET(CPACK_SOURCE_ZIP "OFF")
-SET(CPACK_SYSTEM_NAME "Linux")
-SET(CPACK_TOPLEVEL_TAG "Linux")
-SET(CPACK_WIX_SIZEOF_VOID_P "8")
+set(CPACK_RESOURCE_FILE_LICENSE ${CMAKE_CURRENT_SOURCE_DIR}/LICENSE)  
+set(CPACK_RESOURCE_FILE_README ${CMAKE_CURRENT_SOURCE_DIR}/README.md)
+  
+# формирование конфигурирования файла
+set(CPACK_RPM_PACKAGE_NAME "tree-crossdevelop") 
+  
+# представление имени поставщика для PRM пакета
+set(CPACK_RPM_PACKAGE_LICENSE "MIT") 
+  
+# представление лицензии поставщика для PRM пакета
+set(CPACK_RPM_PACKAGE_GROUP "BSTree_interpretate's") 
+  
+# представление групы поставщика для PRM пакета
+set(CPACK_RPM_PACKAGE_URL "https://github.com/geminishkv/BSTree_edit.git") 
+  
+# представление на каталог линковки для PRM пакета
+set(CPACK_RPM_CHANGELOG_FILE ${CMAKE_CURRENT_SOURCE_DIR}/ChangeLog.md) 
+set(CPACK_RPM_PACKAGE_RELEASE 1)
+  
+# представление нормализованной версии выпуска для PRM пакета
+# формирование конфигурирования файла
+set(CPACK_DEBIAN_PACKAGE_NAME "lib4BSTree-dev")
+  
+#представление имени поставщика для DEB пакета
+set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://geminishkv.github.io/BSTree_edit/")
+set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://kit10000000.github.io/BSTTree")
+set(CPACK_DEBIAN_PACKAGE_PREDEPENDS "cmake >= 3.0")
+set(CPACK_DEBIAN_PACKAGE_RELEASE 1)
 
-if(NOT CPACK_PROPERTIES_FILE)
-  set(CPACK_PROPERTIES_FILE "/home/geminishkv_dev/geminishkv/workspace/projects/HomeWork/BSTree_edit/CPackProperties.cmake")
-endif()
-
-if(EXISTS ${CPACK_PROPERTIES_FILE})
-  include(${CPACK_PROPERTIES_FILE})
-endif()
+include(CPack)
