@@ -25,7 +25,7 @@ BSTree::Tree::Tree(const Tree& tree) {
             insert(node->data);
             return false;
         };
-        traversal(nullptr, nullptr, nullptr, tree.root);
+        traversal(handle, nullptr, nullptr, tree.root);
     } else {
         root = nullptr;
     }
@@ -148,6 +148,7 @@ void BSTree::Tree::print(const traversal_order order) {
     default:
         traversal(nullptr, nullptr, handle);
     }
+	std::cout << std::endl;
 }
 
 bool BSTree::Tree::isEmprty() {
@@ -334,28 +335,28 @@ BSTree::Tree& BSTree::Tree::operator=(const BSTree::Tree& tree) {
         root = nullptr;
 
         // new values
-        Handle handle1 = [&](const Node * node) {
-            this->insert(node->data);
+        Handle handle1 = [this](const Node * node) {
+            insert(node->data);
             return false;
         };
-
-        traversal(handle1);
+		traversal(handle1, nullptr, nullptr, tree.root);
     }
     return *this;
 }
 
 BSTree::Tree& BSTree::Tree::operator=(BSTree::Tree&& tree) {
 
-    // Delete old nodes 
-    BSTree::Handle handle = [](const Node* node) {
-        delete node;    // insert - new, destructor - delete
-        return false;
-    };
+    //// Delete old nodes 
+    //BSTree::Handle handle = [](const Node* node) {
+    //    delete node;    // insert - new, destructor - delete
+    //    return false;
+    //};
 
-    traversal(nullptr, nullptr, handle);
-    root = nullptr;
+    //traversal(nullptr, nullptr, handle);
+    //root = nullptr;
 
-    root = tree.root;
+    root = std::move(tree.root);
+	tree.root = nullptr;
     return *this;
 }
 

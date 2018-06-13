@@ -39,12 +39,12 @@ struct Node {
 
 class Tree {
     Node* root = nullptr;
-
-    // universal tree traversal (if return true - recursion end)
-    bool traversal(const Handle before = nullptr, const Handle middle = nullptr,
-        const Handle after = nullptr, Node* cur_node = nullptr);
+	 // universal tree traversal (if return true - recursion end)
+	 bool traversal(const Handle before = nullptr, const Handle middle = nullptr,
+		 const Handle after = nullptr, Node* cur_node = nullptr);
 
  public:
+
     Tree();
     explicit Tree(const std::initializer_list<Data>& list);
     explicit Tree(const Tree& tree);
