@@ -17,14 +17,14 @@ matrix:
     fast_finish: false           # не останавливаемся после возникновения ошибки в каком-то из заданий
 
 platform:
-    # будем гонять CI на amd64 и x86...
+    # будем гонять CI++ на amd64 и x86...
     - x64
     - x86
 
-configuration:
+#configuration:
     # ... и в дебажной, и в релизной конфигурациях ...
-    - Debug
-    - Release
+    #- Debug
+    #- Release
 
 environment:
     matrix:
@@ -33,20 +33,22 @@ environment:
         - TOOLCHAIN: msvc12
         - TOOLCHAIN: msvc14
 
-install:
+#install:
     # скрипт настройки среды и установки зависимостей
-    - call ciappveyorset-env.bat %TOOLCHAIN% %PLATFORM%
+    #- call ciappveyorset-env.bat %TOOLCHAIN% %PLATFORM%
 
-    - appveyor DownloadFile <url> -FileName <local-file>
-    - 7z e -y <local-file> -o<local-dir>
+    #- appveyor DownloadFile <url> -FileName <local-file>
+    #- 7z e -y <local-file> -o<local-dir>
 
 before_build:
   - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ" 
 
 build_script:
     # скрипт сборки проекта
+    - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
     - cmake --build _build
     - cmake --build _build --target install
+    - cmake --build _build --target test -- ARGS=--verbose
     - cmake --build _build --target unit_tests_coverage
     - cmake --build _build --target package
   # - cmake .. %CMAKE_CONFIGURE_FLAGS%
@@ -65,9 +67,9 @@ test_script:
   # - ctest -C %CONFIGURATION% --output-on-failure
   # - ./check -s -r compact
 
-artifacts:
-    - path: <local-package-path>
-      name: package_name
+#artifacts:
+#    - path: <local-package-path>
+#    - name: package_name
 
  deploy:
     # выкладываем tagged-коммиты на GitHub Releases
@@ -75,7 +77,7 @@ artifacts:
     provider: GitHub
 
     auth_token:
-        secure: <encrypted-github-token>
+        secure: <67d4ad69298447307c2dbe1dc61ef78f8a224352>
 
     artifact: package_name
     force_update: true
