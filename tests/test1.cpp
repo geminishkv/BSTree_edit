@@ -7,7 +7,7 @@
 #include <catch.hpp>
 #include <tree.hpp>
 
-TEST_CASE("Test tree", "[tree]"){
+/*TEST_CASE("Test tree", "[tree]"){
 	
 	// experimental
 	std::string path = "test.txt";
@@ -50,16 +50,20 @@ TEST_CASE("Test tree", "[tree]"){
 
 	REQUIRE(methods.insert(11) == true);
 	REQUIRE(methods.insert(11) == false);
+	methods.show();
 
 	REQUIRE(methods.exists(11) == true);
 	REQUIRE(methods.exists(151) == false);
+	methods.show();
 
 	REQUIRE(methods.remove(11) == true);
 	REQUIRE(methods.remove(151) == false);
+	methods.show();
 
 	bool file = methods.save(path);
 	REQUIRE(file == true);
 	REQUIRE(methods.load(path) == true);
+	methods.show();
 
 	if (file)
 		remove(path.c_str());
@@ -67,9 +71,9 @@ TEST_CASE("Test tree", "[tree]"){
 	std::cout << "Проверка вывода и обходов" << std::endl;
 	//BSTree::Tree orders(tree_constructors2);
 	BSTree::Tree orders(exp_list);
-	//orders.show();
+	orders.show();
 	orders.print(BSTree::traversal_order::pre);
 	orders.print(BSTree::traversal_order::in);
 	orders.print(BSTree::traversal_order::post);
 
-}
+}*/
