@@ -45,6 +45,7 @@ TEST_CASE("Test tree", "[tree]"){
 
 	std::cout << "Проверка методов" << std::endl;
 	BSTree::Tree methods(tree_constructors2);
+	methods.show();
 
 	REQUIRE(methods.insert(11) == true);
 	REQUIRE(methods.insert(11) == false);
