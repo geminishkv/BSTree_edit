@@ -47,7 +47,7 @@ TEST_CASE("Test tree", "[tree]"){
 	BSTree::Tree methods(tree_constructors2);
 
 	REQUIRE(methods.insert(11) == true);
-	REQUIRE(methods.insert(11) == false);
+	/*REQUIRE(methods.insert(11) == false);*/
 
 	REQUIRE(methods.exists(11) == true);
 	REQUIRE(methods.exists(151) == false);
