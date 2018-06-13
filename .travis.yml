@@ -22,6 +22,9 @@ script:
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
 
+notifications:
+  email: false
+
 #branches:
 # only:
 # - crossdevelop
@@ -36,10 +39,13 @@ script:
 deploy:
   provider: releases
   api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
-  file: _build/*.tar.gz
+  file_glob: true
+  file: "${_build/*.tar.gz}"
   skip_cleanup: true
   on:
     tags: true
+    all_branches: true
 
 
 # can use gitlub how4alternative
+

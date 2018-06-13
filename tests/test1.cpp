@@ -7,7 +7,7 @@
 #include <catch.hpp>
 #include <tree.hpp>
 
-/*TEST_CASE("Test tree", "[tree]"){
+TEST_CASE("Test tree", "[tree]"){
 	
 	// experimental
 	std::string path = "test.txt";
@@ -37,10 +37,10 @@
 
 	std::cout << "Проверка работы операторов" << std::endl;
 	BSTree::Tree tree_operators1;
-	tree_operators1 = tree_constructors5;				// =&
+	tree_operators1 = tree_constructors5;				// =& 
 	tree_operators1.print(BSTree::traversal_order::pre);
 	BSTree::Tree tree_operators2;
-	tree_operators2 = BSTree::Tree(exp_list);			// =&&
+	//tree_operators2 = BSTree::Tree(exp_list);			// =&&
 	tree_operators2.print(BSTree::traversal_order::pre);
 
 	std::cout << "Проверка методов" << std::endl;
@@ -74,4 +74,4 @@
 	orders.print(BSTree::traversal_order::post);
 	//orders.show();
 
-}*/
+}
