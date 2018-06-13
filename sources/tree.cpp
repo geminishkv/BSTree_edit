@@ -277,23 +277,10 @@ bool BSTree::Tree::remove(const Data value) {
 }
 
 bool BSTree::Tree::save(const std::string & path) {
-    std::ifstream exist(path);
-    if (exist) {
-        // file already exists
-        std::string answer;
-        while (true) {
-            std::cout << "File already exist, rewrite? (y/n)" << std::endl;
-            std::cin >> answer;
-            if (answer == "y") {
-                break;
-            } else if (answer == "n") {
-                return false;
-            } else {
-                std::cout << "Not valid value. Repeat." << std::endl;
-            }
-        }
-    }
-    exist.close();
+
+	if (isEmprty())
+		return false;
+
     std::string res;
     Handle FWrite = [&res](BSTree::Node * node) {
         res += std::to_string(node->data) + " ";

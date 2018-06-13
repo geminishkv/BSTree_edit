@@ -70,5 +70,3 @@ TEST_CASE("Test tree", "[tree]"){
 	orders.print(BSTree::traversal_order::post);
 
 }
-
-

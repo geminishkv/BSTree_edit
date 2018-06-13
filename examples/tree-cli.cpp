@@ -109,8 +109,28 @@ int main(int argc, char* argv[]) {
             std::cout << "Enter path: ";
             std::cin >> path;
 
-            tree.save(path);
-
+			std::ifstream exist(path);
+			if (exist) {
+				// file already exists
+				std::string answer;
+				while (true) {
+					std::cout << "File already exist, rewrite? (y/n)" << std::endl;
+					std::cin >> answer;
+					if (answer == "y") {
+						tree.save(path);
+					}
+					else if (answer == "n") {
+						break;
+					}
+					else {
+						std::cout << "Not valid value. Repeat." << std::endl;
+					}
+				}
+			}
+			else {
+				tree.save(path);
+			}
+			exist.close();
             break;
         }
         case 6:
