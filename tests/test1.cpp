@@ -7,9 +7,9 @@
 #include <catch.hpp>
 #include <tree.hpp>
 
-TEST_CASE("Test tree", "[tree]"){
+/*TEST_CASE("Test tree", "[tree]"){
 	
-	/*// experimental
+	// experimental
 	std::string path = "test.txt";
 	std::initializer_list<BSTree::Data> exp_list = { 1, 2, 12, 0, 10, 3, 4, 5 };
 	std::vector<BSTree::Data> exp_vector(exp_list);
@@ -46,24 +46,19 @@ TEST_CASE("Test tree", "[tree]"){
 	std::cout << "Проверка методов" << std::endl;
 	//BSTree::Tree methods(tree_constructors2);
 	BSTree::Tree methods(exp_list);
-	methods.show();
 
 	REQUIRE(methods.insert(11) == true);
 	REQUIRE(methods.insert(11) == false);
-	methods.show();
 
 	REQUIRE(methods.exists(11) == true);
 	REQUIRE(methods.exists(151) == false);
-	methods.show();
 
 	REQUIRE(methods.remove(11) == true);
 	REQUIRE(methods.remove(151) == false);
-	methods.show();
 
 	bool file = methods.save(path);
 	REQUIRE(file == true);
 	REQUIRE(methods.load(path) == true);
-	methods.show();
 
 	if (file)
 		remove(path.c_str());
@@ -71,9 +66,12 @@ TEST_CASE("Test tree", "[tree]"){
 	std::cout << "Проверка вывода и обходов" << std::endl;
 	//BSTree::Tree orders(tree_constructors2);
 	BSTree::Tree orders(exp_list);
-	orders.show();
+	//orders.show();
 	orders.print(BSTree::traversal_order::pre);
+	//orders.show();
 	orders.print(BSTree::traversal_order::in);
-	orders.print(BSTree::traversal_order::post);*/
+	//orders.show();
+	orders.print(BSTree::traversal_order::post);
+	//orders.show();
 
-}
+}*/
