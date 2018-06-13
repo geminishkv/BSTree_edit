@@ -7,9 +7,9 @@
 #include <catch.hpp>
 #include <tree.hpp>
 
-/*TEST_CASE("Test tree", "[tree]"){
+TEST_CASE("Test tree", "[tree]"){
 	
-	// experimental
+	/*// experimental
 	std::string path = "test.txt";
 	std::initializer_list<BSTree::Data> exp_list = { 1, 2, 12, 0, 10, 3, 4, 5 };
 	std::vector<BSTree::Data> exp_vector(exp_list);
@@ -74,6 +74,6 @@
 	orders.show();
 	orders.print(BSTree::traversal_order::pre);
 	orders.print(BSTree::traversal_order::in);
-	orders.print(BSTree::traversal_order::post);
+	orders.print(BSTree::traversal_order::post);*/
 
-}*/
+}
