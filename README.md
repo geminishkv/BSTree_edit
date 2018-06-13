@@ -166,7 +166,7 @@ i
 * **CMake** driven cross-platform package manager for `C/C++`.![GitHub issue size](https://img.shields.io/badge/Code%20Size-120%20MB-brightgreen.svg)
 * Supported platforms: **Linux**, **Mac**, **Windows**. ![Doc Stable](https://img.shields.io/badge/documentation-stable%20up-green.svg)![Hackage-Deps](https://img.shields.io/badge/dependencies-up%20--to--date-green.svg) ![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg)
 * File's4Code `C++`: `tree-cli.cpp` `tree.h` `tree.cpp`![GitHub manifest version](https://img.shields.io/badge/manifest-7.9.4.5.v1-blue.svg) ![GitHub release](https://img.shields.io/badge/release-7.9.4.5-blue.svg)
-* Test's files: `catch.hpp(realised by hunter)` `main.cpp` `test1.cpp` ![Elijah Doman test](https://img.shields.io/badge/passed%20tests-15%2F15-green.svg)
+* Test's files: `catch.hpp(realised by hunter)` `main.cpp` `test1.cpp` `test2.cpp`![Elijah Doman test](https://img.shields.io/badge/passed%20tests-15%2F15-green.svg)
 * **Hunter** dev by **Ruslo**: [![hunter dev](https://img.shields.io/badge/Hunter%20develoer-ruslo-blue.svg)](https://github.com/ruslo/hunter)
 * Created by **Zinchenko** && **Shmakov** 4 **BMSTU**. ![Plugin on redmine.org](https://img.shields.io/redmine/plugin/rating/redmine_xlsx_format_issue_exporter.svg)![Latest's updates Stats (long form)](https://img.shields.io/badge/latest%20push%204init%20crossdev-6%2C%20June-green.svg) ![Pull Request Stats (long form)](https://img.shields.io/badge/pull%20regues%20issue-latest%2031%2C%20May-green.svg)
 * Copyright © 2018 **iso4datel** && **geminishkv**. All rights reserved. ![DUB](https://img.shields.io/dub/l/vibe-d.svg)![PyPI - License](https://img.shields.io/pypi/l/Django.svg)
