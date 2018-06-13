@@ -35,7 +35,7 @@ branches:
 
 deploy:
   provider: releases
-  api_key: "67d4ad69298447307c2dbe1dc61ef78f8a224352"
+  api_key: "bb2cdcdcdcc94c63dd193a14fa00bb096bc1b508"
   file: _build/*.tar.gz
   skip_cleanup: true
   on:
