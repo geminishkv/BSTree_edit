@@ -34,12 +34,13 @@ before_deploy:
       # Set up git user name and tag this commit
       - git config --local user.name "geminishkv"
       - git config --local user.email "gshkvbmstu@gmail.com"
-      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+      #- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 
 deploy:
   provider: releases
-  api_key: 
-     secure: "a49585d0a603aad19efd8b00e78d3ac3560f2a50"
+  api_key: "a49585d0a603aad19efd8b00e78d3ac3560f2a50"
+     secure: "CIAH+fxSRqy1diTMna8V3aIl3D4+4da1UTSq6uhv8Fwfb19mcjg7p6IPl8S7kOEj7MqlA45BKmUSkOprMgjCBVJJDGFs4WQuXrFVLQyfixsAmStMNNwy0u3lrUMu8Tkje3C1x2DDTAFrrpJg1Nf6jaCaf+X4fGq7GcmUHlayLHr4TJCsH8AlMvfPxSrXegs39NSMEuEemxEyKiCBVvP8rYePX7iAC9cQeE7Gf2Rnpk2pJTeefyScZ+aHzqiPS0Uj42b8eh3tZWjD/R70YX6s2UrTUgR1/GlTOwB+TCzh7GmgP0AXCfrrl+LsQPMVJGtCFTGkPPuQZoFMHeqXTH7WxG42UPbd1kov47lrfsy5MOvWN/zoZeEdVuIw6uDOJizz1hiwZ46FDX3a8HnM4sXzCuDN2MFpElmjhwrGAmFGeI6J4kbLPBoI5GszE5qiXroaABUv+o5nUAZtwYIXSVj9nwvMe7AqpCxNsls7HIG42HYvRKLvJs8eNndhkx3PH1cAIhrku90UPwITR9ZVFbBwlKC1unnt3xJLOROAlYm5Y92J0v59Z2dRuiuXXhIHVenZAmCVmk9mjKNeawB6K8akiHTx0UGyts8zl8/HniEmOkpDLsDaXBeQTDbzgY6G/LLp1/LYENkMLeBot9yXRphGuMR/j/nZ2kdvVOlAv7rsJbo="
+
   file_glob: true
   file: _build/*.tar.gz
   skip_cleanup: true
