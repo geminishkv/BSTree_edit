@@ -39,7 +39,6 @@ set(CPACK_DEBIAN_PACKAGE_NAME "lib4BSTree-dev")
   
 #представление имени поставщика для DEB пакета
 set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://geminishkv.github.io/BSTree_edit/")
-set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://kit10000000.github.io/BSTTree")
 set(CPACK_DEBIAN_PACKAGE_PREDEPENDS "cmake >= 3.0")
 set(CPACK_DEBIAN_PACKAGE_RELEASE 1)
 
