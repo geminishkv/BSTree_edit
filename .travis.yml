@@ -3,18 +3,19 @@ language: cpp
 addons:
   apt:
     sources:
-    - george-edison55-precise-backports
+      - george-edison55-precise-backports
+     #- google-chrome
     packages:
-    - cmake
-    - cmake-data
-    - lcov
+      - cmake
+      - cmake-data
+      - lcov
+     #- google-chrome-stable
 
 cache:
-- apt
+  - apt
 
 script:
-- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON
-  -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
+- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
 - cmake --build _build
 - cmake --build _build --target install
 - cmake --build _build --target test -- ARGS=--verbose
@@ -24,17 +25,30 @@ script:
 notifications:
   email: false
 
+#branches:
+# only:
+# - crossdevelop
+# - /v\d+\.\d+[a-z]/
+
 before_deploy:
-- git config --local user.name "geminishkv"
-- git config --local user.email "gshkvbmstu@gmail.com"
+      # Set up git user name and tag this commit
+      - git config --local user.name "geminishkv"
+      - git config --local user.email "gshkvbmstu@gmail.com"
+      #- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 
 deploy:
- provider: releases
-  api_key:
-    secure: "ENU9iP/22KrVss3f1C4lPZw8Vodt1BJQazc9v5DUQquuKUMQ7Q4am+IlR0UUwIkoBP6F8Isph+uzoOMv3bnbI2jhU8M/aJuQR9jOEZIn+V004D6MorHCF0V0rRuCJMq1NRdF7id7EU6lLFUgbDhoO3MYTsMiQJ6oUANKYGQM4ZWXkoQ/ISFbC3xYMuZYadObmtvGdDGwUP+w7zq2B58TEr0uNXHUIvM/XeUaZ1cdz2byg9naKGD9w75gedYJnFUaOoIbPZ2yNCRHHyDs36dd8LJ6QidNLSPMFEImil4lO1cfplkleMrxR7teNwAd2eL38xkGDstFP4jEUjdXNgYbbRkJgqZXQkjK0997DTug+ebwM/+yaZemCk182gyqXbbqivQ/5b5bD15Mxk+k9JM5BRZAP0456AWRZ8dupfNznAmHiwak59AM7Gb8qj9vFxDA4VKkwQng1eCDDjIi3Ax/zXitq70pHFsb6+ReB75G4DYuSbYANkdAyMCXg7Oh/tDJLjf6hx3nZcFMpibEz+Wl7d5/AOkVcM0S6ZYCIfc8gvjoN9v7hQTVpQ5zHQhMW8fIzAQDCepz9Yff+Y0qfdkAZca90sDIEv6/nzWdhUmmrAWTSc/8oXc3+niXj9rRMUdgKXmcQJ5C53FEyyb8vXXBSHmZtFMDQTcheeOhGSmLnlc="
+  provider: releases
+  api_key: 
+     secure: ENU9iP/22KrVss3f1C4lPZw8Vodt1BJQazc9v5DUQquuKUMQ7Q4am+IlR0UUwIkoBP6F8Isph+uzoOMv3bnbI2jhU8M/aJuQR9jOEZIn+V004D6MorHCF0V0rRuCJMq1NRdF7id7EU6lLFUgbDhoO3MYTsMiQJ6oUANKYGQM4ZWXkoQ/ISFbC3xYMuZYadObmtvGdDGwUP+w7zq2B58TEr0uNXHUIvM/XeUaZ1cdz2byg9naKGD9w75gedYJnFUaOoIbPZ2yNCRHHyDs36dd8LJ6QidNLSPMFEImil4lO1cfplkleMrxR7teNwAd2eL38xkGDstFP4jEUjdXNgYbbRkJgqZXQkjK0997DTug+ebwM/+yaZemCk182gyqXbbqivQ/5b5bD15Mxk+k9JM5BRZAP0456AWRZ8dupfNznAmHiwak59AM7Gb8qj9vFxDA4VKkwQng1eCDDjIi3Ax/zXitq70pHFsb6+ReB75G4DYuSbYANkdAyMCXg7Oh/tDJLjf6hx3nZcFMpibEz+Wl7d5/AOkVcM0S6ZYCIfc8gvjoN9v7hQTVpQ5zHQhMW8fIzAQDCepz9Yff+Y0qfdkAZca90sDIEv6/nzWdhUmmrAWTSc/8oXc3+niXj9rRMUdgKXmcQJ5C53FEyyb8vXXBSHmZtFMDQTcheeOhGSmLnlc=
+
   file_glob: true
   file: _build/*.tar.gz
   skip_cleanup: true
   on:
     tags: true
     all_branches: true
+
+
+# can use gitlub how4alternative
+
+
