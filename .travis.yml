@@ -1,54 +1,36 @@
 language: cpp
-
 addons:
   apt:
     sources:
-      - george-edison55-precise-backports
-     #- google-chrome
+    - george-edison55-precise-backports
     packages:
-      - cmake
-      - cmake-data
-      - lcov
-     #- google-chrome-stable
-
+    - cmake
+    - cmake-data
+    - lcov
 cache:
-  - apt
-
+- apt
 script:
-- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
+- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install -DBUILD_TESTS=ON -DBUILD_EXAMPLES=ON
+  -DCMAKE_BUILD_TYPE=Coverage -DCPACK_GENERATOR="TGZ"
 - cmake --build _build
 - cmake --build _build --target install
 - cmake --build _build --target test -- ARGS=--verbose
 - cmake --build _build --target unit_tests_coverage
 - cmake --build _build --target package
-
 notifications:
   email: false
-
-#branches:
-# only:
-# - crossdevelop
-# - /v\d+\.\d+[a-z]/
-
 before_deploy:
-      # Set up git user name and tag this commit
-      - git config --local user.name "geminishkv"
-      - git config --local user.email "gshkvbmstu@gmail.com"
-      #- git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
-
+- git config --local user.name "geminishkv"
+- git config --local user.email "gshkvbmstu@gmail.com"
 deploy:
   provider: releases
-  api_key: 
-     secure: ENU9iP/22KrVss3f1C4lPZw8Vodt1BJQazc9v5DUQquuKUMQ7Q4am+IlR0UUwIkoBP6F8Isph+uzoOMv3bnbI2jhU8M/aJuQR9jOEZIn+V004D6MorHCF0V0rRuCJMq1NRdF7id7EU6lLFUgbDhoO3MYTsMiQJ6oUANKYGQM4ZWXkoQ/ISFbC3xYMuZYadObmtvGdDGwUP+w7zq2B58TEr0uNXHUIvM/XeUaZ1cdz2byg9naKGD9w75gedYJnFUaOoIbPZ2yNCRHHyDs36dd8LJ6QidNLSPMFEImil4lO1cfplkleMrxR7teNwAd2eL38xkGDstFP4jEUjdXNgYbbRkJgqZXQkjK0997DTug+ebwM/+yaZemCk182gyqXbbqivQ/5b5bD15Mxk+k9JM5BRZAP0456AWRZ8dupfNznAmHiwak59AM7Gb8qj9vFxDA4VKkwQng1eCDDjIi3Ax/zXitq70pHFsb6+ReB75G4DYuSbYANkdAyMCXg7Oh/tDJLjf6hx3nZcFMpibEz+Wl7d5/AOkVcM0S6ZYCIfc8gvjoN9v7hQTVpQ5zHQhMW8fIzAQDCepz9Yff+Y0qfdkAZca90sDIEv6/nzWdhUmmrAWTSc/8oXc3+niXj9rRMUdgKXmcQJ5C53FEyyb8vXXBSHmZtFMDQTcheeOhGSmLnlc=
-
+  api_key: "$GITHUB_OAUTH_TOKEN"
   file_glob: true
   file: _build/*.tar.gz
   skip_cleanup: true
   on:
     tags: true
     all_branches: true
-
-
-# can use gitlub how4alternative
-
-
+env:
+  global:
+    secure: Y7lDE6dY+/+/IWVcAPISDG/8uf6wea5rF6p5URu+2uCqkKq1iIeSZ6zCignB2fvJBTQH84JoagcbQDgyzjF7s8LuWB7Z2ICiz4AFSkXuhzbzAD0t/Egh0uCceSKP11arAaCNx3+ioasubCZffslka9AKdAjA//hfHL/uxyWZyudxLpikvuqftyL2HjZnJLOwUoTLuC7GuFcVwf5OxhJw3ql3IZpKR1Q2vIDBTgRtxs+3mFlHm6dDdFnCYRdiOAUt5C6/o8sneacycM7uuVAMEwWp9GcgaQissQIZ4jOPDo3ItLLPI25/C/ARfZqGBjuLAo9c2dIFYpq/w+hpivHsqa4pATYGuxf4ovq824e6tAhmnQvESJVS6tF4zJv/FlwdBAghudg3HUacI4XMqbnddwIB1S0A/3jcEK+42T7Bd5A5TUfm4DTF2GlbIkSxukfFC1zw/6QNl+jR+0e21gT9cpyzJEIv8jsYZ16ufRM558vhw1U8P64Bb7e46AN10CSDRFhJhooYv776ahOEoIaHPcotuE1YAgcuuGAb9k6L+ftRGEyi1qqOGVInpxvs6hUAiIdO8eHnyVXRJglGsCKo4JUh07lMvA7jpEGtEG+XclEcsVVnZg85IkcFIrzhDmnErvyMv4M1DQjOb+aCUnKqulr/znxmT+esNqntVv5wYSU=
